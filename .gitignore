@@ -1,0 +1,16 @@
+*.pyc
+*.pkl
+*~
+*$
+.DS_Store
+testing/
+test-pdfs/
+*.egg-info
+env
+env2
+env3
+test_env
+test_env2
+test_env3
+original-pdfs/
+.vscode

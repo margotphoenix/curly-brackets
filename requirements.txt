@@ -1,0 +1,16 @@
+certifi==2022.12.7
+charset-normalizer==3.0.1
+idna==3.4
+iso8601==0.1.12
+numpy==1.24.2
+pandas==1.5.3
+Pillow==9.4.0
+pychallonge==1.11.5
+PyPDF2==3.0.1
+python-dateutil==2.8.2
+pytz==2022.7.1
+reportlab==3.6.12
+requests==2.28.2
+six==1.16.0
+tzlocal==2.1
+urllib3==1.26.14

@@ -1,0 +1,3969 @@
+[
+    {
+        "template_file": "8player_Bracket.pdf",
+        "n_entrants": 8,
+        "n_in_winners": 4,
+        "n_in_losers": 4,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 8,
+        "n_slots": 8,
+        "lookup_order": 10,
+        "legacy_code": "z",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                2,
+                4
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 663.12,
+                "y0": 588.24,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    89.712
+                ],
+                "width": 79.2,
+                "rotation": 0,
+                "fontsize": 11
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "template_file": "16player_Bracket.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 20,
+        "legacy_code": "z",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 688.32,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 76.32,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "template_file": "32player_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 30,
+        "legacy_code": "z",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 665.28,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 66.96,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "template_file": "2w4l_Bracket.pdf",
+        "n_in_winners": 2,
+        "n_in_losers": 4,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 8,
+        "n_slots": 6,
+        "lookup_order": 40,
+        "legacy_code": "z3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 565.2,
+                "y0": 588.24,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    89.712
+                ],
+                "width": 79.2,
+                "rotation": 0,
+                "fontsize": 11
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "template_file": "4w8l_Bracket.pdf",
+        "n_in_winners": 4,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 16,
+        "n_slots": 12,
+        "lookup_order": 50,
+        "legacy_code": "z3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 649.44,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 77.76,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "template_file": "8w16l_Bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 60,
+        "legacy_code": "z3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 665.28,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 66.96,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "template_file": "8player_2out_Bracket.pdf",
+        "n_entrants": 8,
+        "n_in_winners": 4,
+        "n_in_losers": 4,
+        "format": "double-elimination",
+        "n_advance": 2,
+        "bracket_size": 8,
+        "n_slots": 8,
+        "lookup_order": 70,
+        "legacy_code": "y",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                2,
+                4
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 689.04,
+                "y0": 588.24,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    89.712
+                ],
+                "width": 79.2,
+                "rotation": 0,
+                "fontsize": 11
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1056.96,
+                "y": 314.64,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 46.8,
+                "y": 242.64,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "16player_2out_Bracket.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 2,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 80,
+        "legacy_code": "y",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 683.28,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 77.76,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 266.96,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 44.48,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 53.12,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 146.72,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 584.64,
+            "y": 2.88,
+            "width": 636.48,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1088.64,
+                "y": 272.88,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 16.56,
+                "y": 272.88,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "32player_2out_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 2,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 90,
+        "legacy_code": "y",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 668.16,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1076.4,
+                "y": 332.64,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 33.12,
+                "y": 201.6,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "16player_3out_Bracket.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 100,
+        "legacy_code": "w",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 688.32,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 77.76,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1089.36,
+                "y": 272.88,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 27.36,
+                "y": 461.52,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 27.36,
+                "y": 362.88,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "32player_3out_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 110,
+        "legacy_code": "w",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 674.64,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1080.0,
+                "y": 332.64,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 30.96,
+                "y": 512.64,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 23.04,
+                "y": 237.6,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "8w16l_3out_Bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 120,
+        "legacy_code": "w3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 637.56,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1046.16,
+                "y": 313.92,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 33.12,
+                "y": 511.92,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 24.48,
+                "y": 237.6,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "8player_4out_Bracket.pdf",
+        "n_entrants": 8,
+        "n_in_winners": 4,
+        "n_in_losers": 4,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 8,
+        "n_slots": 8,
+        "lookup_order": 130,
+        "legacy_code": "x",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                2,
+                4
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 623.52,
+                "y0": 611.28,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    89.712,
+                    18.0,
+                    160.56
+                ],
+                "width": 79.2,
+                "rotation": 0,
+                "fontsize": 11
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 963.36,
+                "y": 390.96,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 126.72,
+                "y": 391.68,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "16player_4out_Bracket.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 140,
+        "legacy_code": "x",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 686.88,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 78.48,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1062.72,
+                "y": 381.96,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 75.6,
+                "y": 381.96,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    4,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "32player_4out_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 150,
+        "legacy_code": "x",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 681.84,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1068.48,
+                "y": 422.28,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 25.92,
+                "y": 422.28,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "4w8l_4out_Bracket.pdf",
+        "n_in_winners": 4,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 16,
+        "n_slots": 12,
+        "lookup_order": 160,
+        "legacy_code": "x3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 630.72,
+                "y0": 563.04,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 77.76,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1029.6,
+                "y": 383.04,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 65.52,
+                "y": 383.04,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    4,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "8w16l_4out_Bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 170,
+        "legacy_code": "x3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 638.64,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1025.28,
+                "y": 424.08,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 45.36,
+                "y": 424.08,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "16player_6out_Bracket.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 180,
+        "legacy_code": "b",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 633.6,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 77.76,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1017.36,
+                "y": 383.04,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 1018.0,
+                "y": 144.72,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 1018.0,
+                "y": 612.72,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 79.92,
+                "y": 383.04,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    6,
+                    5
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "32player_6out_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 190,
+        "legacy_code": "b",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 663.12,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 66.96,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1052.64,
+                "y": 415.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 1044.0,
+                "y": 110.16,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 1044.0,
+                "y": 739.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 92.16,
+                "y": 415.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    6
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "8w16l_6out_Bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 200,
+        "legacy_code": "b3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 658.08,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 66.96,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1052.64,
+                "y": 415.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "x": 1044.0,
+                "y": 110.16,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 1044.0,
+                "y": 739.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 0,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 92.16,
+                "y": 415.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    6
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "16player_8out_Bracket.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 8,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 210,
+        "legacy_code": "e",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 630.72,
+                "y0": 560.88,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.0,
+                    26.928
+                ],
+                "width": 77.76,
+                "rotation": 0,
+                "fontsize": 10
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 969.84,
+                "y": 481.68,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "x": 969.84,
+                "y": 298.8,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "x": 127.44,
+                "y": 481.68,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    6,
+                    7
+                ]
+            },
+            {
+                "x": 127.44,
+                "y": 298.8,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    8
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "32player_8out_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 8,
+        "bracket_size": 32,
+        "lookup_order": 220,
+        "legacy_code": "e",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 679.68,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1072.08,
+                "y": 576.72,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "x": 1072.08,
+                "y": 266.4,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "x": 27.36,
+                "y": 576.72,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    8
+                ]
+            },
+            {
+                "x": 27.36,
+                "y": 266.4,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    6,
+                    7
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "8w16l_8out_Bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 8,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 230,
+        "legacy_code": "e3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 614.88,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 996.48,
+                "y": 574.56,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "x": 996.48,
+                "y": 259.92,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "x": 97.92,
+                "y": 574.56,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    8
+                ]
+            },
+            {
+                "x": 97.92,
+                "y": 259.92,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    6,
+                    7
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "32player_12out_Bracket.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 12,
+        "bracket_size": 32,
+        "lookup_order": 240,
+        "legacy_code": "t",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "PheNOM",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ]
+        },
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 679.68,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 1072.08,
+                "y": 576.72,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "x": 1072.08,
+                "y": 266.4,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "x": 69.32,
+                "y": 641.68,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    8
+                ]
+            },
+            {
+                "x": 69.32,
+                "y": 327.55,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    6,
+                    7
+                ]
+            },
+            {
+                "x": 207,
+                "y": 570.44,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    11,
+                    10
+                ]
+            },
+            {
+                "x": 207,
+                "y": 260.54,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    12,
+                    9
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "8w16l_12out_Bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 12,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 250,
+        "legacy_code": "t3",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "PheNOM",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 614.88,
+                "y0": 725.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    15.84,
+                    22.752
+                ],
+                "width": 67.68,
+                "rotation": 0,
+                "fontsize": 8.5
+            }
+        ],
+        "event": {
+            "x": 272.0,
+            "y": 58.88,
+            "width": 150.08,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "pool": {
+            "x": 49.52,
+            "y": 20.72,
+            "width": 47.84,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 58.16,
+            "y": 58.88,
+            "width": 142.88,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "date": {
+            "x": 151.76,
+            "y": 20.72,
+            "width": 76.64,
+            "height": 17.44,
+            "fontsize": 16
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 2.88,
+            "width": 631.44,
+            "height": 85.68,
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 997.06,
+                "y": 576.27,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    1,
+                    4
+                ]
+            },
+            {
+                "x": 997.06,
+                "y": 261.56,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "x": 50.24,
+                "y": 635.43,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    5,
+                    8
+                ]
+            },
+            {
+                "x": 50.24,
+                "y": 313.79,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    6,
+                    7
+                ]
+            },
+            {
+                "x": 228.28,
+                "y": 576.27,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    11,
+                    10
+                ]
+            },
+            {
+                "x": 228.28,
+                "y": 261.56,
+                "width": 129.6,
+                "height": 34.56,
+                "alignment": 1,
+                "fontsize": 12,
+                "valign": "MIDDLE",
+                "type": "de",
+                "seeds": [
+                    12,
+                    9
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "playpool8de.pdf",
+        "n_entrants": 8,
+        "n_in_winners": 4,
+        "n_in_losers": 4,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 8,
+        "n_slots": 8,
+        "lookup_order": 910,
+        "legacy_code": "d",
+        "paper_size": "US Legal",
+        "paper_orientation": "landscape",
+        "source": "playpool",
+        "reserve_options": {
+            "n_in_winners": [
+                2,
+                4
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 14,
+            "height": 8.5,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 496.8,
+                "y0": 527.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    45.0
+                ],
+                "width": 110.16,
+                "rotation": 0,
+                "fontsize": 11
+            }
+        ],
+        "total": {
+            "x": 99.2,
+            "y": 473.6,
+            "width": 35.6,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "label": {
+            "x": 169.76,
+            "y": 536.96,
+            "width": 176.72,
+            "height": 19.6,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 218.0,
+            "y": 505.28,
+            "width": 125.6,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "date": {
+            "x": 82.64,
+            "y": 505.28,
+            "width": 71.6,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "image": {
+            "x": 399.6,
+            "y": 23.04,
+            "width": 282.96,
+            "height": 115.2
+        }
+    },
+    {
+        "template_file": "playpool16de.pdf",
+        "n_entrants": 16,
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 920,
+        "legacy_code": "d",
+        "paper_size": "US Legal",
+        "paper_orientation": "landscape",
+        "source": "playpool",
+        "reserve_options": {
+            "n_in_winners": [
+                4,
+                8
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 14,
+            "height": 8.5,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 501.84,
+                "y0": 536.4,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    25.272
+                ],
+                "width": 77.04,
+                "rotation": 0,
+                "fontsize": 9
+            }
+        ],
+        "total": {
+            "x": 99.2,
+            "y": 507.44,
+            "width": 35.6,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "label": {
+            "x": 169.76,
+            "y": 570.8,
+            "width": 176.72,
+            "height": 19.6,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 218.0,
+            "y": 539.48,
+            "width": 125.6,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "date": {
+            "x": 82.64,
+            "y": 539.48,
+            "width": 71.6,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "image": {
+            "x": 402.48,
+            "y": 24.48,
+            "width": 277.2,
+            "height": 111.6
+        }
+    },
+    {
+        "template_file": "playpool32de.pdf",
+        "n_entrants": 32,
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 930,
+        "legacy_code": "d",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "playpool",
+        "reserve_options": {
+            "n_in_winners": [
+                8,
+                16
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 617.76,
+                "y0": 727.92,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    17.136,
+                    21.42,
+                    17.136,
+                    17.136
+                ],
+                "width": 119.52,
+                "rotation": 0,
+                "fontsize": 12
+            }
+        ],
+        "total": {
+            "x": 117.92,
+            "y": 678.08,
+            "width": 38.48,
+            "height": 16.0,
+            "fontsize": 14
+        },
+        "label": {
+            "x": 192.08,
+            "y": 742.16,
+            "width": 165.92,
+            "height": 19.6,
+            "fontsize": 18
+        },
+        "judge": {
+            "x": 246.8,
+            "y": 710.12,
+            "width": 111.92,
+            "height": 16.0,
+            "fontsize": 15
+        },
+        "date": {
+            "x": 99.92,
+            "y": 710.12,
+            "width": 74.48,
+            "height": 16.0,
+            "fontsize": 15
+        },
+        "image": {
+            "x": 530.64,
+            "y": 30.24,
+            "width": 288.72,
+            "height": 121.68
+        }
+    },
+    {
+        "template_file": "playpool64de.pdf",
+        "n_entrants": 64,
+        "n_in_winners": 32,
+        "n_in_losers": 32,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 64,
+        "n_slots": 64,
+        "lookup_order": 940,
+        "legacy_code": "d",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "playpool",
+        "reserve_options": {
+            "n_in_winners": [
+                16,
+                32
+            ],
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 686.16,
+                "y0": 756.72,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    10.5912
+                ],
+                "width": 63.36,
+                "rotation": 0,
+                "fontsize": 8
+            }
+        ],
+        "total": {
+            "x": 77.6,
+            "y": 681.32,
+            "width": 29.84,
+            "height": 11.68,
+            "fontsize": 12
+        },
+        "label": {
+            "x": 136.64,
+            "y": 732.08,
+            "width": 122.72,
+            "height": 13.84,
+            "fontsize": 14
+        },
+        "judge": {
+            "x": 179.12,
+            "y": 706.88,
+            "width": 80.96,
+            "height": 11.68,
+            "fontsize": 13
+        },
+        "date": {
+            "x": 62.48,
+            "y": 706.88,
+            "width": 57.92,
+            "height": 11.68,
+            "fontsize": 13
+        },
+        "image": {
+            "x": 944.64,
+            "y": 72.72,
+            "width": 210.24,
+            "height": 84.96
+        }
+    },
+    {
+        "template_file": "10player_RRGrid.pdf",
+        "n_entrants": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "format": "round-robin",
+        "n_advance": null,
+        "bracket_size": 10,
+        "n_slots": 10,
+        "lookup_order": 10,
+        "legacy_code": "rr",
+        "paper_size": "US Letter",
+        "paper_orientation": "portrait",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 8.5,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 51.84,
+                "y0": 482.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    36.36
+                ],
+                "width": 128.88,
+                "rotation": 0,
+                "fontsize": 12
+            },
+            {
+                "x0": 219.6,
+                "y0": 518.904,
+                "dx": [
+                    39.24
+                ],
+                "dy": [
+                    0.0
+                ],
+                "width": 68.4,
+                "rotation": 63.435,
+                "fontsize": 11
+            }
+        ],
+        "event": {
+            "x": 214.4,
+            "y": 45.2,
+            "width": 134.24,
+            "height": 10.96,
+            "fontsize": 14
+        },
+        "pool": {
+            "x": 53.12,
+            "y": 13.52,
+            "width": 42.08,
+            "height": 10.96,
+            "fontsize": 14
+        },
+        "judge": {
+            "x": 61.04,
+            "y": 45.2,
+            "width": 88.16,
+            "height": 10.96,
+            "fontsize": 13
+        },
+        "date": {
+            "x": 146.72,
+            "y": 13.52,
+            "width": 68.0,
+            "height": 10.96,
+            "fontsize": 13
+        },
+        "notes": {
+            "x": 420.48,
+            "y": 2.88,
+            "width": 368.64,
+            "height": 47.52,
+            "fontsize": 9
+        },
+        "progressions": [
+            {
+                "x": 341.28,
+                "y": 70.56,
+                "width": 233.28,
+                "height": 73.44,
+                "alignment": 0,
+                "fontsize": 10,
+                "backgray": null,
+                "valign": "TOP",
+                "type": "rr",
+                "seeds": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "11player_RRGrid.pdf",
+        "n_entrants": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "format": "round-robin",
+        "n_advance": null,
+        "bracket_size": 11,
+        "n_slots": 11,
+        "lookup_order": 20,
+        "legacy_code": "rr",
+        "paper_size": "US Letter",
+        "paper_orientation": "portrait",
+        "source": "thehadou",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 8.5,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 39.6,
+                "y0": 478.8,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    38.52
+                ],
+                "width": 138.96,
+                "rotation": 0,
+                "fontsize": 13
+            },
+            {
+                "x0": 219.6,
+                "y0": 518.112,
+                "dx": [
+                    41.616
+                ],
+                "dy": [
+                    0.0
+                ],
+                "width": 73.44,
+                "rotation": 63.435,
+                "fontsize": 12
+            }
+        ],
+        "event": {
+            "x": 214.4,
+            "y": 45.2,
+            "width": 134.24,
+            "height": 10.96,
+            "fontsize": 14
+        },
+        "pool": {
+            "x": 53.12,
+            "y": 13.52,
+            "width": 42.08,
+            "height": 10.96,
+            "fontsize": 14
+        },
+        "judge": {
+            "x": 61.04,
+            "y": 45.2,
+            "width": 88.16,
+            "height": 10.96,
+            "fontsize": 13
+        },
+        "date": {
+            "x": 146.72,
+            "y": 13.52,
+            "width": 68.0,
+            "height": 10.96,
+            "fontsize": 13
+        },
+        "notes": {
+            "x": 420.48,
+            "y": 2.88,
+            "width": 181.44,
+            "height": 47.52,
+            "fontsize": 9
+        },
+        "progressions": [
+            {
+                "x": 606.24,
+                "y": 2.88,
+                "width": 182.88,
+                "height": 60.48,
+                "alignment": 0,
+                "fontsize": 9,
+                "backgray": null,
+                "valign": "TOP",
+                "type": "rr",
+                "seeds": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "roundrobin.pdf",
+        "n_entrants": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "format": "round-robin",
+        "n_advance": null,
+        "bracket_size": 10,
+        "n_slots": 10,
+        "lookup_order": 910,
+        "legacy_code": "r",
+        "paper_size": "US Letter",
+        "paper_orientation": "portrait",
+        "source": "playpool",
+        "elements": [
+            "total",
+            "judge",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 11,
+            "height": 8.5,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 151.2,
+                "y0": 419.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    38.304
+                ],
+                "width": 116.64,
+                "rotation": 0,
+                "fontsize": 13
+            },
+            {
+                "x0": 306.72,
+                "y0": 455.76,
+                "dx": [
+                    38.592
+                ],
+                "dy": [
+                    0.0
+                ],
+                "width": 99.36,
+                "rotation": 62.158,
+                "fontsize": 12
+            }
+        ],
+        "total": {
+            "x": 117.2,
+            "y": 513.2,
+            "width": 60.8,
+            "height": 10.96,
+            "fontsize": 12
+        },
+        "label": {
+            "x": 149.6,
+            "y": 550.64,
+            "width": 142.88,
+            "height": 10.96,
+            "fontsize": 14
+        },
+        "judge": {
+            "x": 194.24,
+            "y": 532.64,
+            "width": 86.0,
+            "height": 10.96,
+            "fontsize": 12
+        },
+        "date": {
+            "x": 67.52,
+            "y": 532.64,
+            "width": 60.8,
+            "height": 10.96,
+            "fontsize": 12
+        }
+    },
+    {
+        "template_file": "playpool8se.pdf",
+        "n_entrants": 8,
+        "format": "single-elimination",
+        "n_advance": 0,
+        "bracket_size": 8,
+        "n_slots": 8,
+        "lookup_order": 910,
+        "legacy_code": "s",
+        "paper_size": "US Letter",
+        "paper_orientation": "portrait",
+        "source": "playpool",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 8.5,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 50.4,
+                "y0": 617.76,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    54.0
+                ],
+                "width": 157.68,
+                "rotation": 0,
+                "fontsize": 13
+            }
+        ],
+        "total": {
+            "x": 346.88,
+            "y": 681.68,
+            "width": 33.44,
+            "height": 13.12,
+            "fontsize": 13
+        },
+        "label": {
+            "x": 412.4,
+            "y": 739.64,
+            "width": 148.64,
+            "height": 16.0,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 462.08,
+            "y": 710.48,
+            "width": 100.4,
+            "height": 13.12,
+            "fontsize": 13
+        },
+        "date": {
+            "x": 329.6,
+            "y": 710.48,
+            "width": 68.0,
+            "height": 13.12,
+            "fontsize": 13
+        },
+        "image": {
+            "x": 31.68,
+            "y": 56.88,
+            "width": 258.48,
+            "height": 111.6
+        }
+    },
+    {
+        "template_file": "playpool16se.pdf",
+        "n_entrants": 16,
+        "format": "single-elimination",
+        "n_advance": 0,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 920,
+        "legacy_code": "s",
+        "paper_size": "US Letter",
+        "paper_orientation": "portrait",
+        "source": "playpool",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 8.5,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 52.56,
+                "y0": 667.44,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    31.536
+                ],
+                "width": 155.52,
+                "rotation": 0,
+                "fontsize": 12
+            }
+        ],
+        "total": {
+            "x": 346.88,
+            "y": 700.4,
+            "width": 33.44,
+            "height": 13.12,
+            "fontsize": 13
+        },
+        "label": {
+            "x": 412.4,
+            "y": 758.0,
+            "width": 148.64,
+            "height": 16.0,
+            "fontsize": 16
+        },
+        "judge": {
+            "x": 462.08,
+            "y": 729.2,
+            "width": 100.4,
+            "height": 13.12,
+            "fontsize": 13
+        },
+        "date": {
+            "x": 329.6,
+            "y": 729.2,
+            "width": 68.0,
+            "height": 13.12,
+            "fontsize": 12
+        },
+        "image": {
+            "x": 64.08,
+            "y": 25.2,
+            "width": 229.68,
+            "height": 95.04
+        }
+    },
+    {
+        "template_file": "playpool32se.pdf",
+        "n_entrants": 32,
+        "format": "single-elimination",
+        "n_advance": 0,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 930,
+        "legacy_code": "s",
+        "paper_size": "US Letter",
+        "paper_orientation": "portrait",
+        "source": "playpool",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "total",
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 8.5,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": [
+            {
+                "x0": 52.56,
+                "y0": 710.64,
+                "dx": [
+                    0.0
+                ],
+                "dy": [
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    18.648,
+                    23.4,
+                    18.648,
+                    18.648
+                ],
+                "width": 155.52,
+                "rotation": 0,
+                "fontsize": 11
+            }
+        ],
+        "total": {
+            "x": 329.6,
+            "y": 725.96,
+            "width": 33.44,
+            "height": 10.24,
+            "fontsize": 12
+        },
+        "label": {
+            "x": 394.4,
+            "y": 755.12,
+            "width": 148.64,
+            "height": 14.56,
+            "fontsize": 14
+        },
+        "judge": {
+            "x": 444.08,
+            "y": 740.36,
+            "width": 100.4,
+            "height": 10.24,
+            "fontsize": 12
+        },
+        "date": {
+            "x": 311.6,
+            "y": 740.36,
+            "width": 68.0,
+            "height": 10.24,
+            "fontsize": 12
+        },
+        "image": {
+            "x": 69.12,
+            "y": 27.36,
+            "width": 223.2,
+            "height": 90.0
+        }
+    }
+]
