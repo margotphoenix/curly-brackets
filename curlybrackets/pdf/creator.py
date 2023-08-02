@@ -75,7 +75,6 @@ def print_bracket(filename, names, format, **kwargs):
     template_files = []
     template_brackets = {}
     for nms, vkwargs in zip(names, var_kwargs):
-        print(nms)
         try:
             tf = TemplateLookup.search(format=format, **vkwargs)
         except KeyError:
@@ -86,10 +85,8 @@ def print_bracket(filename, names, format, **kwargs):
                     nent = len(nms['WR1'])
             else:
                 nent = len(nms)
-            print(nent)
             tf = TemplateLookup.search(format=format,
                                        n_entrants=nent, **vkwargs)
-        print(tf)
 
         template_files.append(tf)
         if tf not in template_brackets:

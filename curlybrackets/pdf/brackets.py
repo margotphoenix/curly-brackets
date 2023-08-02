@@ -133,7 +133,7 @@ class Template:
                 if len(element.seeds) > 1:
                     fmt_str = 'Players advance to'.replace(' ', NBSP)
                 else:
-                    fmt_str = 'Player advances to'.replace(' ', NBSP)
+                    fmt_str = 'Advances to'.replace(' ', NBSP)
                 fmt_str += ' ' + format_string
                 prog = collapse_kwargs([progressions[s] for s in element.seeds])
                 prog_text = ProgressionFormatter().format(fmt_str, **prog)

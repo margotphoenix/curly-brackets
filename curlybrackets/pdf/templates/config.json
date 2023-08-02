@@ -419,7 +419,7 @@
             "x": 589.68,
             "y": 2.88,
             "width": 631.44,
-            "height": 85.68,
+            "height": 64.03,
             "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         }
@@ -507,43 +507,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 52.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         }
     },
@@ -1209,43 +1209,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
@@ -1548,7 +1548,7 @@
                     962.8563,
                     933.3862,
                     915.0125,
-                    882.2416,
+                    885.33,
                     867.0347,
                     837.6782,
                     819.3045,
@@ -1580,7 +1580,7 @@
                     951.3718,
                     932.9981,
                     902.1712,
-                    883.7975,
+                    883.8,
                     854.441,
                     836.0673,
                     806.4632,
@@ -1633,43 +1633,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
@@ -2458,43 +2458,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
@@ -3207,7 +3207,7 @@
                     962.8563,
                     933.3862,
                     915.0125,
-                    882.2416,
+                    885.33,
                     867.0347,
                     837.6782,
                     819.3045,
@@ -3239,7 +3239,7 @@
                     951.3718,
                     932.9981,
                     902.1712,
-                    883.7975,
+                    883.8,
                     854.441,
                     836.0673,
                     806.4632,
@@ -3292,43 +3292,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
@@ -3587,43 +3587,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
@@ -4083,43 +4083,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
@@ -4543,43 +4543,43 @@
             }
         },
         "event": {
-            "x": 572.63,
-            "y": 1178.68,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1180.19,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "pool": {
-            "x": 572.63,
-            "y": 1152.65,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1154.16,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "date": {
-            "x": 572.63,
-            "y": 1126.62,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1128.13,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "judge": {
-            "x": 572.63,
-            "y": 1100.59,
-            "width": 193.6,
+            "x": 576.64,
+            "y": 1102.1,
+            "width": 189.6,
             "height": 17.44,
             "fontsize": 18,
             "alignment": "left"
         },
         "notes": {
-            "x": 589.68,
-            "y": 18.91,
-            "width": 756.5,
-            "height": 52.29,
-            "fontsize": 12,
+            "x": 19.12,
+            "y": 18.99,
+            "width": 753.83,
+            "height": 64.03,
+            "fontsize": 10,
             "section_header": "<b>Notes:</b>"
         },
         "progressions": [
