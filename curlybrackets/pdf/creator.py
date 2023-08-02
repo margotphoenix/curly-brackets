@@ -1,4 +1,6 @@
 
+from math import log2, ceil
+
 from PyPDF2 import PdfFileWriter
 
 from curlybrackets.pdf.brackets import TemplateLookup
@@ -18,6 +20,44 @@ def get_format(format):
         raise TypeError(f'Invalid tournament format: {format}')
 
 
+def _auto_advance_entrants(entrants, names, format):
+    rounds = []
+    for entrs, nms in zip(entrants, names):
+        bsize = len(nms)
+        ts = 2**ceil(log2(len(entrs)))
+        tsh = 2**ceil(log2(len(entrs)/1.5))
+        if tsh == ts: 
+            rnds = {
+                'WR1': nms,
+                'WR2': seeds_to_sequential(
+                    entrs[:(len(nms)-len(entrs))],
+                    size=bsize//2),
+                }
+            rnds['LR1'] = [
+                nms[2*i+1] if rnds['WR2'][i] == nms[2*i] else ''
+                for i in range(bsize//2)]
+            rnds['LR2'] = [
+                '' if i % 2 == 0 else rnds['LR1'][i]
+                for i in range(bsize//2)]
+        else:
+            rnds = {
+                'WR1': [
+                    nms[i] for i in range(len(nms)) if (i//2)%2 == 1],
+                'WR2': seeds_to_sequential(
+                    entrs[:(len(nms)-len(entrs))],
+                    size=bsize//2)
+            }
+            rnds['LR1'] = [
+                nms[2*i+1] if rnds['WR2'][i] == nms[2*i] else ''
+                for i in range(bsize//2)]
+            rnds['LR1'] = [
+                '' if i % 2 == 0 else rnds['LR1'][i]
+                for i in range(bsize//2)]
+
+        rounds.append(rnds)
+    return rounds
+
+
 def print_bracket(filename, names, format, **kwargs):
     """ Make bracket pdf
 
@@ -26,7 +66,7 @@ def print_bracket(filename, names, format, **kwargs):
     filename : str
     names :
     """
-    if not isinstance(names[0], (tuple, list)):
+    if not isinstance(names[0], (tuple, list, dict)):
         names = [names]
     format = get_format(format)
 
@@ -35,11 +75,21 @@ def print_bracket(filename, names, format, **kwargs):
     template_files = []
     template_brackets = {}
     for nms, vkwargs in zip(names, var_kwargs):
+        print(nms)
         try:
             tf = TemplateLookup.search(format=format, **vkwargs)
         except KeyError:
+            if isinstance(nms, dict):
+                if len(nms['WR1']) == len(nms['WR2']):
+                    nent = len(nms['WR1']) + len(nms['WR2'])//2
+                else:
+                    nent = len(nms['WR1'])
+            else:
+                nent = len(nms)
+            print(nent)
             tf = TemplateLookup.search(format=format,
-                                       n_entrants=len(nms), **vkwargs)
+                                       n_entrants=nent, **vkwargs)
+        print(tf)
 
         template_files.append(tf)
         if tf not in template_brackets:
@@ -65,8 +115,8 @@ def print_bracket(filename, names, format, **kwargs):
 
 def print_initial_bracket(filename, entrants, format='double-elimination',
                           n_advance=0, name_order='seed', bracket_size=None,
-                          byes=None, entrants_textgray=0, byes_textgray=0.85,
-                          **kwargs):
+                          entrants_textgray=0, byes=None, byes_textgray=0.85,
+                          auto_advance=False, **kwargs):
     """ Make bracket pdf where all players start in winners
 
     Parameters
@@ -83,25 +133,39 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
     total = [str(len(entrs)) for entrs in entrants]
 
     if format[0] in ['d', 's'] and name_order != 'sequential':
-        if byes == 'none':
-            names = [seeds_to_sequential(entrs, size=bracket_size)
-                     for entrs in entrants]
+        if byes in ['none', 'block']:
+            bye_fill = (None if byes == 'block' else '')
+            names = [seeds_to_sequential(
+                entrs, size=bracket_size, fill=bye_fill
+                ) for entrs in entrants]
             names_textgray = entrants_textgray
+
+            if auto_advance:
+                names = _auto_advance_entrants(
+                    entrants, names, format
+                )
         else:
-            if byes == 'number':
-                names_fill = 'Bye {:d}'.format
-            else:
-                names_fill = 'Bye'
+            bye_fill = ('Bye {:d}' if byes == 'number' else 'Bye')
             names = []
             names_textgray = []
             for entrs in entrants:
                 names.append(seeds_to_sequential(
-                    entrs, size=bracket_size, fill=names_fill
+                    entrs, size=bracket_size, fill=bye_fill
                 ))
                 names_textgray.append(seeds_to_sequential(
                     [entrants_textgray for _ in entrs],
                     size=bracket_size, fill=byes_textgray
                 ))
+
+            if auto_advance:
+                names = _auto_advance_entrants(
+                    entrants, names, format
+                )
+                names_textgray = {'WR1': names_textgray, 
+                                  'WR2': entrants_textgray}  # This won't work for 24
+                if format[0] == 'd':
+                    names_textgray.update({'LR1': byes_textgray, 
+                                           'LR2': byes_textgray})
     else:
         names = entrants
         names_textgray = entrants_textgray
@@ -114,8 +178,8 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
 
 def print_continued_bracket(filename, in_winners, in_losers,
                             format='double-elimination', n_advance=0,
-                            winners_arrow='\u226b', losers_arrow='\u226a',
-                            name_order='sequential', **kwargs):
+                            winners_arrow='\u226b', losers_arrow='\u226a', 
+                            pre_advance=False, **kwargs):
     """ Make bracket pdf where some players start in losers
 
     Parameters
@@ -136,10 +200,6 @@ def print_continued_bracket(filename, in_winners, in_losers,
         raise ValueError(f'Cannot create continued bracket with'
                          f'{format} format')
 
-    if name_order != 'sequential':
-        raise NotImplementedError('Names must be in sequential order'
-                                  'for continued bracket')
-
     names = []
     names_vkwargs = []
     for win, los in zip(in_winners, in_losers):
@@ -147,26 +207,32 @@ def print_continued_bracket(filename, in_winners, in_losers,
                    'n_in_losers': len(los),
                    'total': str(len(win)+len(los))}
 
-        if winners_arrow:
-            win = [f'{n} {winners_arrow}' for n in win]
-        if losers_arrow:
-            los = [f'{losers_arrow} {n}' for n in los]
-
-        nms = []
-        if len(los) == 2*len(win):
-            for i in range(len(win)):
-                nms += [win[i], los[2*i], '', los[2*i+1]]
-        elif len(los) == len(win):
-            for i in range(len(win)):
-                nms += [win[i], los[i]]
+        if pre_advance:
+            nms = {
+                'WR1': win,
+                'LR1': los
+            }
         else:
-            raise ValueError('Incompatible lengths for winners and losers'
-                             'name lists')
+            if winners_arrow:
+                win = [f'{n} {winners_arrow}' for n in win]
+            if losers_arrow:
+                los = [f'{losers_arrow} {n}' for n in los]
 
-        nms_aln = []
-        for i in range(len(los)):
-            nms_aln += ['right', 'left']
-        nms_vkw.update(names_alignment=nms_aln)
+            nms = []
+            if len(los) == 2*len(win):
+                for i in range(len(win)):
+                    nms += [win[i], los[2*i], '', los[2*i+1]]
+            elif len(los) == len(win):
+                for i in range(len(win)):
+                    nms += [win[i], los[i]]
+            else:
+                raise ValueError('Incompatible lengths for winners and losers'
+                                'name lists')
+
+            nms_aln = []
+            for i in range(len(los)):
+                nms_aln += ['right', 'left']
+            nms_vkw.update(names_alignment=nms_aln)
 
         names.append(nms)
         names_vkwargs.append(nms_vkw)

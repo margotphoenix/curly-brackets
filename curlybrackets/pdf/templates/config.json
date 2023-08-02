@@ -425,6 +425,129 @@
         }
     },
     {
+        "template_file": "jm_8w16l_bracket.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 32,
+        "n_slots": 24,
+        "lookup_order": 55,
+        "legacy_code": "z",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": 142.4997,
+                "y": [
+                    1020.8591,
+                    1002.4854,
+                    924.891,
+                    906.5173,
+                    829.1001,
+                    810.7263,
+                    732.9296,
+                    714.5559
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 23.4831,
+                "y": [
+                    487.6329,
+                    469.1109,
+                    439.2679,
+                    420.7459,
+                    391.0379,
+                    372.5158,
+                    342.6728,
+                    324.1508,
+                    294.5574,
+                    276.0351,
+                    246.1924,
+                    227.6703,
+                    196.7296,
+                    178.2076,
+                    148.3646,
+                    129.8426
+                ],
+                "width": 102.6,
+                "height": 15.56,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
         "template_file": "8w16l_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -453,22 +576,128 @@
             "height": 11,
             "unit": "inch"
         },
-        "names": [
-            {
-                "x0": 665.28,
-                "y0": 725.76,
-                "dx": [
-                    0.0
+        "names": {
+            "WR1": {
+                "x": 656.15,
+                "y": [
+                    723.36,
+                    707.52,
+                    684.36,
+                    668.52,
+                    645.36,
+                    629.52,
+                    606.36,
+                    590.52,
+                    567.36,
+                    551.52,
+                    528.36,
+                    512.52,
+                    489.36,
+                    473.52,
+                    450.36,
+                    434.52,
+                    411.36,
+                    395.52,
+                    372.36,
+                    356.52,
+                    333.36,
+                    317.52,
+                    294.36,
+                    278.52,
+                    255.36,
+                    239.52,
+                    216.36,
+                    200.52,
+                    177.36,
+                    161.52,
+                    138.36,
+                    127.36
                 ],
-                "dy": [
-                    15.84,
-                    22.752
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "WR2": {
+                "x": 778.64,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
                 ],
-                "width": 66.96,
-                "rotation": 0,
-                "fontsize": 8.5
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "WR3": {
+                "x": 855.8,
+                "y": [
+                    665.43,
+                    649.59,
+                    511.03,
+                    495.19,
+                    355.31,
+                    339.47,
+                    200.91,
+                    185.07
+                ],
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "LR1": {
+                "x": 571.77,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
             }
-        ],
+        },
         "event": {
             "x": 272.0,
             "y": 58.88,
@@ -852,6 +1081,219 @@
         ]
     },
     {
+        "template_file": "jm_16ppl_3adv.pdf",
+        "n_entrants": 16,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 16,
+        "n_slots": 16,
+        "lookup_order": 95,
+        "legacy_code": "w",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": 75.39,
+                "y": [
+                    1046.0683,
+                    1023.638,
+                    987.4979,
+                    965.0675,
+                    929.0909,
+                    906.6606,
+                    870.5205,
+                    848.0901,
+                    812.2523,
+                    789.8219,
+                    753.6818,
+                    731.2515,
+                    693.782,
+                    671.3517,
+                    635.2116,
+                    612.7813
+                ],
+                "width": 109.1632,
+                "height": 18.8094,
+                "margin": {
+                    "left": 2,
+                    "right": 18,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "WR2": {
+                "num_slots": 8,
+                "x": 203.3787,
+                "y": [
+                    1016.5055,
+                    994.0752,
+                    899.3492,
+                    876.9189,
+                    782.4089,
+                    759.979,
+                    665.0061,
+                    642.5758
+                ],
+                "width": 109.1632,
+                "height": 18.8094,
+                "margin": {
+                    "left": 2,
+                    "right": 18,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": 28.05,
+                "y": [
+                    370.3306,
+                    347.7826,
+                    311.3508,
+                    288.7394,
+                    252.4724,
+                    229.861,
+                    193.4292,
+                    170.8178
+                ],
+                "width": 109.1632,
+                "height": 18.8094,
+                "margin": {
+                    "left": 2,
+                    "right": 18,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "LR2": {
+                "num_slots": 8,
+                "x": 155.56,
+                "y": [
+                    370.3306,
+                    370.3306,
+                    370.3306,
+                    370.3306,
+                    370.3306,
+                    370.3306,
+                    370.3306,
+                    370.3306
+                ],
+                "width": 109.1632,
+                "height": 18.8094,
+                "margin": {
+                    "left": 2,
+                    "right": 18,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 625.75,
+                "y": 848.87,
+                "width": 105,
+                "height": 50,
+                "alignment": 0,
+                "fontsize": 16,
+                "valign": "BOTTOM",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 625.75,
+                "y": 700.17,
+                "width": 105,
+                "height": 50,
+                "alignment": 0,
+                "fontsize": 16,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 671.26,
+                "y": 261.03,
+                "width": 105,
+                "height": 50,
+                "alignment": 0,
+                "fontsize": 16,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            }
+        ]
+    },
+    {
         "template_file": "16player_3out_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -885,22 +1327,112 @@
             "height": 11,
             "unit": "inch"
         },
-        "names": [
-            {
-                "x0": 688.32,
-                "y0": 560.88,
-                "dx": [
-                    0.0
+        "names": {
+            "WR1": {
+                "x": 677.79,
+                "y": [
+                    558,
+                    539.58,
+                    512.58,
+                    494.22,
+                    468.35,
+                    449.93,
+                    422.93,
+                    404.57,
+                    378.5,
+                    360.08,
+                    333.08,
+                    314.72,
+                    288.85,
+                    270.43,
+                    243.43,
+                    225.07
                 ],
-                "dy": [
-                    18.0,
-                    26.928
+                "width": 89.66,
+                "height": 17.51,
+                "margin": {
+                    "left": 2.2,
+                    "right": 1.1
+                },
+                "fontsize": 11
+            },
+            "WR2": {
+                "x": 820.4,
+                "y": [
+                    535.43,
+                    517.01,
+                    445.56,
+                    427.14,
+                    355.69,
+                    337.27,
+                    265.85,
+                    247.43
                 ],
-                "width": 77.76,
-                "rotation": 0,
-                "fontsize": 10
+                "width": 89.66,
+                "height": 17.51,
+                "margin": {
+                    "left": 1.65,
+                    "right": 1.65
+                },
+                "fontsize": 11
+            },
+            "WR3": {
+                "x": 910.14,
+                "y": [
+                    490.43,
+                    472.01,
+                    310.71,
+                    292.29
+                ],
+                "width": 89.66,
+                "height": 17.51,
+                "margin": {
+                    "left": 1.65,
+                    "right": 1.65
+                },
+                "fontsize": 11
+            },
+            "LR1": {
+                "x": 573.7,
+                "y": [
+                    535.43,
+                    517.01,
+                    445.56,
+                    427.14,
+                    355.69,
+                    337.27,
+                    265.85,
+                    247.43
+                ],
+                "width": 89.66,
+                "height": 17.51,
+                "margin": {
+                    "left": 1.65,
+                    "right": 1.65
+                },
+                "fontsize": 11
+            },
+            "LR2": {
+                "x": 435.36,
+                "y": [
+                    535.43,
+                    517.01,
+                    445.56,
+                    427.14,
+                    355.69,
+                    337.27,
+                    265.85,
+                    247.43
+                ],
+                "width": 89.66,
+                "height": 17.51,
+                "margin": {
+                    "left": 1.65,
+                    "right": 1.65
+                },
+                "fontsize": 11
             }
-        ],
+        },
         "event": {
             "x": 272.0,
             "y": 58.88,
@@ -980,6 +1512,212 @@
         ]
     },
     {
+        "template_file": "jm_24ppl_3adv.pdf",
+        "n_entrants": 24,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 24,
+        "n_slots": 24,
+        "lookup_order": 143,
+        "legacy_code": "w",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": 22.7852,
+                "y": [
+                    1029.2078,
+                    1010.8341,
+                    981.23,
+                    962.8563,
+                    933.3862,
+                    915.0125,
+                    882.2416,
+                    867.0347,
+                    837.6782,
+                    819.3045,
+                    789.7005,
+                    771.3267,
+                    740.6338,
+                    722.26,
+                    692.656,
+                    674.2823
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "WR2": {
+                "num_slots": 16,
+                "x": 141.9488,
+                "y": [
+                    1045.9706,
+                    1027.5969,
+                    997.9928,
+                    979.6191,
+                    951.3718,
+                    932.9981,
+                    902.1712,
+                    883.7975,
+                    854.441,
+                    836.0673,
+                    806.4632,
+                    788.0895,
+                    757.3965,
+                    739.0228,
+                    710.6416,
+                    692.2679
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 23.41,
+                "y": [
+                    487.6329,
+                    469.1109,
+                    439.2679,
+                    420.7459,
+                    391.0379,
+                    372.5158,
+                    342.6728,
+                    324.1508,
+                    294.5574,
+                    276.0351,
+                    246.1924,
+                    227.6703,
+                    196.7296,
+                    178.2076,
+                    148.3646,
+                    129.8426
+                ],
+                "width": 102.6,
+                "height": 15.56,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 671.55,
+                "y": 885.53,
+                "width": 105,
+                "height": 50,
+                "alignment": 0,
+                "fontsize": 16,
+                "valign": "BOTTOM",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 671.55,
+                "y": 746.7,
+                "width": 105,
+                "height": 50,
+                "alignment": 0,
+                "fontsize": 16,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 671.55,
+                "y": 230.95,
+                "width": 105,
+                "height": 50,
+                "alignment": 0,
+                "fontsize": 16,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            }
+        ]
+    },
+    {
         "template_file": "32player_3out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -1013,22 +1751,156 @@
             "height": 11,
             "unit": "inch"
         },
-        "names": [
-            {
-                "x0": 674.64,
-                "y0": 725.76,
-                "dx": [
-                    0.0
+        "names": {
+            "WR1": {
+                "x": 665.76,
+                "y": [
+                    723.36,
+                    707.52,
+                    684.36,
+                    668.52,
+                    645.36,
+                    629.52,
+                    606.36,
+                    590.52,
+                    567.36,
+                    551.52,
+                    528.36,
+                    512.52,
+                    489.36,
+                    473.52,
+                    450.36,
+                    434.52,
+                    411.36,
+                    395.52,
+                    372.36,
+                    356.52,
+                    333.36,
+                    317.52,
+                    294.36,
+                    278.52,
+                    255.36,
+                    239.52,
+                    216.36,
+                    200.52,
+                    177.36,
+                    161.52,
+                    138.36,
+                    127.36
                 ],
-                "dy": [
-                    15.84,
-                    22.752
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "WR2": {
+                "x": 788.25,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
                 ],
-                "width": 67.68,
-                "rotation": 0,
-                "fontsize": 8.5
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "WR3": {
+                "x": 865.41,
+                "y": [
+                    665.43,
+                    649.59,
+                    511.03,
+                    495.19,
+                    355.31,
+                    339.47,
+                    200.91,
+                    185.07
+                ],
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "LR1": {
+                "x": 581.38,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "LR2": {
+                "x": 467.58,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
             }
-        ],
+        },
         "event": {
             "x": 272.0,
             "y": 58.88,
@@ -1465,6 +2337,226 @@
         ]
     },
     {
+        "template_file": "jm_24ppl_4adv.pdf",
+        "n_entrants": 24,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 24,
+        "n_slots": 24,
+        "lookup_order": 143,
+        "legacy_code": "x",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": 94.32,
+                "y": [
+                    1019.04,
+                    1000.6663,
+                    971.0622,
+                    952.6885,
+                    923.2184,
+                    904.8447,
+                    874.0178,
+                    856.8669,
+                    827.5104,
+                    809.1367,
+                    779.5327,
+                    761.1589,
+                    730.466,
+                    712.0922,
+                    682.4882,
+                    664.1145
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "WR2": {
+                "num_slots": 16,
+                "x": 213.4836,
+                "y": [
+                    1035.8028,
+                    1017.4291,
+                    987.825,
+                    969.4513,
+                    941.204,
+                    922.8303,
+                    892.0034,
+                    873.6297,
+                    844.2732,
+                    825.8995,
+                    796.2954,
+                    777.9217,
+                    747.2287,
+                    728.855,
+                    700.4738,
+                    682.1001
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 35.36,
+                "y": [
+                    487.74,
+                    469.218,
+                    439.375,
+                    420.853,
+                    391.145,
+                    372.6229,
+                    342.7799,
+                    324.2579,
+                    294.6645,
+                    276.1422,
+                    246.2995,
+                    227.7774,
+                    196.8367,
+                    178.3147,
+                    148.4717,
+                    129.9497
+                ],
+                "width": 102.6,
+                "height": 15.56,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 597.27,
+                "y": 912.15,
+                "width": 120,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 597.27,
+                "y": 720.47,
+                "width": 120,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 658.71,
+                "y": 204.95,
+                "width": 120,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 658.71,
+                "y": 399.64,
+                "width": 120,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ]
+            }
+        ]
+    },
+    {
         "template_file": "32player_4out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -1498,22 +2590,156 @@
             "height": 11,
             "unit": "inch"
         },
-        "names": [
-            {
-                "x0": 681.84,
-                "y0": 725.76,
-                "dx": [
-                    0.0
+        "names": {
+            "WR1": {
+                "x": 673.37,
+                "y": [
+                    723.36,
+                    707.52,
+                    684.36,
+                    668.52,
+                    645.36,
+                    629.52,
+                    606.36,
+                    590.52,
+                    567.36,
+                    551.52,
+                    528.36,
+                    512.52,
+                    489.36,
+                    473.52,
+                    450.36,
+                    434.52,
+                    411.36,
+                    395.52,
+                    372.36,
+                    356.52,
+                    333.36,
+                    317.52,
+                    294.36,
+                    278.52,
+                    255.36,
+                    239.52,
+                    216.36,
+                    200.52,
+                    177.36,
+                    161.52,
+                    138.36,
+                    127.36
                 ],
-                "dy": [
-                    15.84,
-                    22.752
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "WR2": {
+                "x": 795.86,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
                 ],
-                "width": 67.68,
-                "rotation": 0,
-                "fontsize": 8.5
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "WR3": {
+                "x": 873.02,
+                "y": [
+                    665.43,
+                    649.59,
+                    511.03,
+                    495.19,
+                    355.31,
+                    339.47,
+                    200.91,
+                    185.07
+                ],
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "LR1": {
+                "x": 588.99,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "LR2": {
+                "x": 475.19,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
             }
-        ],
+        },
         "event": {
             "x": 272.0,
             "y": 58.88,
@@ -1945,10 +3171,551 @@
         ]
     },
     {
+        "template_file": "jm_24ppl_6adv.pdf",
+        "n_entrants": 24,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 24,
+        "n_slots": 24,
+        "lookup_order": 183,
+        "legacy_code": "b",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": 88.72,
+                "y": [
+                    1029.2078,
+                    1010.8341,
+                    981.23,
+                    962.8563,
+                    933.3862,
+                    915.0125,
+                    882.2416,
+                    867.0347,
+                    837.6782,
+                    819.3045,
+                    789.7005,
+                    771.3267,
+                    740.6338,
+                    722.26,
+                    692.656,
+                    674.2823
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "WR2": {
+                "num_slots": 16,
+                "x": 207.8836,
+                "y": [
+                    1045.9706,
+                    1027.5969,
+                    997.9928,
+                    979.6191,
+                    951.3718,
+                    932.9981,
+                    902.1712,
+                    883.7975,
+                    854.441,
+                    836.0673,
+                    806.4632,
+                    788.0895,
+                    757.3965,
+                    739.0228,
+                    710.6416,
+                    692.2679
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 93.4,
+                "y": [
+                    487.6329,
+                    469.1109,
+                    439.2679,
+                    420.7459,
+                    391.0379,
+                    372.5158,
+                    342.6728,
+                    324.1508,
+                    294.5574,
+                    276.0351,
+                    246.1924,
+                    227.6703,
+                    196.7296,
+                    178.2076,
+                    148.3646,
+                    129.8426
+                ],
+                "width": 102.6,
+                "height": 15.56,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 609.21,
+                "y": 932.58,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 609.21,
+                "y": 740.31,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 609.21,
+                "y": 669.42,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 609.21,
+                "y": 861.69,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 595.6,
+                "y": 379.61,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ]
+            },
+            {
+                "x": 595.6,
+                "y": 189.84,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    6
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "jm_32ppl_6adv.pdf",
+        "n_entrants": 32,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 185,
+        "legacy_code": "b",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 32,
+                "x": 85.82,
+                "y": [
+                    1124.51,
+                    1109.4888,
+                    1085.2793,
+                    1070.2537,
+                    1046.1537,
+                    1031.1581,
+                    1006.9186,
+                    991.893,
+                    967.886,
+                    952.8604,
+                    928.6508,
+                    913.6252,
+                    888.5252,
+                    873.4996,
+                    849.2901,
+                    834.2645,
+                    809.6141,
+                    794.5885,
+                    770.379,
+                    755.3534,
+                    731.2534,
+                    716.2278,
+                    692.0182,
+                    676.9926,
+                    652.9856,
+                    637.96,
+                    613.7505,
+                    598.7249,
+                    573.6249,
+                    558.5993,
+                    534.3898,
+                    519.3641
+                ],
+                "width": 102.6,
+                "height": 12.6,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "WR2": {
+                "num_slots": 16,
+                "x": 204.62,
+                "y": [
+                    1105.2766,
+                    1090.251,
+                    1027.4236,
+                    1012.398,
+                    948.5273,
+                    933.5017,
+                    869.2816,
+                    854.256,
+                    789.8749,
+                    774.8493,
+                    712.0219,
+                    696.9963,
+                    634.1256,
+                    619.1,
+                    554.2726,
+                    539.247
+                ],
+                "width": 102.6,
+                "height": 12.6,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 41.38,
+                "y": [
+                    385.64,
+                    370.6144,
+                    346.4049,
+                    331.3793,
+                    307.2793,
+                    292.2537,
+                    268.0442,
+                    253.0186,
+                    229.0115,
+                    213.9859,
+                    189.7764,
+                    174.7508,
+                    149.6508,
+                    134.6252,
+                    110.4157,
+                    95.3901
+                ],
+                "width": 102.6,
+                "height": 12.6,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR2": {
+                "num_slots": 16,
+                "x": 160.55,
+                "y": [
+                    399.3482,
+                    384.3226,
+                    360.1131,
+                    345.0875,
+                    321.9875,
+                    306.9619,
+                    281.7524,
+                    266.7268,
+                    242.7197,
+                    227.6941,
+                    203.4846,
+                    188.459,
+                    163.359,
+                    148.3334,
+                    125.1239,
+                    110.0983
+                ],
+                "width": 102.6,
+                "height": 12.6,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 605.07,
+                "y": 947.97,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 605.07,
+                "y": 632.51,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 605.07,
+                "y": 564.29,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 605.07,
+                "y": 879.75,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 663.32,
+                "y": 304.91,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ]
+            },
+            {
+                "x": 663.32,
+                "y": 149.17,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    6
+                ]
+            }
+        ]
+    },
+    {
         "template_file": "32player_6out_Bracket.pdf",
         "n_entrants": 32,
-        "n_in_winners": 16,
-        "n_in_losers": 16,
         "format": "double-elimination",
         "n_advance": 6,
         "bracket_size": 32,
@@ -1962,7 +3729,8 @@
             "n_in_winners": [
                 8,
                 16
-            ]
+            ],
+            "n_in_losers": 16
         },
         "elements": [
             "judge",
@@ -1978,22 +3746,166 @@
             "height": 11,
             "unit": "inch"
         },
-        "names": [
-            {
-                "x0": 663.12,
-                "y0": 725.76,
-                "dx": [
-                    0.0
+        "names": {
+            "WR1": {
+                "x": 653.34,
+                "y": [
+                    723.36,
+                    707.52,
+                    684.36,
+                    668.52,
+                    645.36,
+                    629.52,
+                    606.36,
+                    590.52,
+                    567.36,
+                    551.52,
+                    528.36,
+                    512.52,
+                    489.36,
+                    473.52,
+                    450.36,
+                    434.52,
+                    411.36,
+                    395.52,
+                    372.36,
+                    356.52,
+                    333.36,
+                    317.52,
+                    294.36,
+                    278.52,
+                    255.36,
+                    239.52,
+                    216.36,
+                    200.52,
+                    177.36,
+                    161.52,
+                    138.36,
+                    127.36
                 ],
-                "dy": [
-                    15.84,
-                    22.752
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 9
+            },
+            "WR2": {
+                "x": 775.83,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
                 ],
-                "width": 66.96,
-                "rotation": 0,
-                "fontsize": 8.5
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 9
+            },
+            "WR3": {
+                "x": 852.99,
+                "y": [
+                    665.43,
+                    649.59,
+                    511.03,
+                    495.19,
+                    355.31,
+                    339.47,
+                    200.91,
+                    185.07
+                ],
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 9
+            },
+            "LR1": {
+                "x": 568.96,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 9
+            },
+            "LR2": {
+                "x": 455.16,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 9
             }
-        ],
+        },
         "event": {
             "x": 272.0,
             "y": 58.88,
@@ -2088,6 +4000,216 @@
         ]
     },
     {
+        "template_file": "jm_8w16l_6adv.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 195,
+        "legacy_code": "b",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": 206.43,
+                "y": [
+                    1020.8591,
+                    1002.4854,
+                    924.891,
+                    906.5173,
+                    829.1001,
+                    810.7263,
+                    732.9296,
+                    714.5559
+                ],
+                "width": 102.6,
+                "height": 15.44,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 97.48,
+                "y": [
+                    487.6329,
+                    469.1109,
+                    439.2679,
+                    420.7459,
+                    391.0379,
+                    372.5158,
+                    342.6728,
+                    324.1508,
+                    294.5574,
+                    276.0351,
+                    246.1924,
+                    227.6703,
+                    196.7296,
+                    178.2076,
+                    148.3646,
+                    129.8426
+                ],
+                "width": 102.6,
+                "height": 15.56,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 487.11,
+                "y": 930.8,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 487.11,
+                "y": 739.29,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 487.11,
+                "y": 668.45,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 487.11,
+                "y": 859.97,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 599.66,
+                "y": 379.31,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ]
+            },
+            {
+                "x": 599.66,
+                "y": 189.76,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    6
+                ]
+            }
+        ]
+    },
+    {
         "template_file": "8w16l_6out_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -2114,22 +4236,128 @@
             "height": 11,
             "unit": "inch"
         },
-        "names": [
-            {
-                "x0": 658.08,
-                "y0": 725.76,
-                "dx": [
-                    0.0
+        "names": {
+            "WR1": {
+                "x": 648.75,
+                "y": [
+                    723.36,
+                    707.52,
+                    684.36,
+                    668.52,
+                    645.36,
+                    629.52,
+                    606.36,
+                    590.52,
+                    567.36,
+                    551.52,
+                    528.36,
+                    512.52,
+                    489.36,
+                    473.52,
+                    450.36,
+                    434.52,
+                    411.36,
+                    395.52,
+                    372.36,
+                    356.52,
+                    333.36,
+                    317.52,
+                    294.36,
+                    278.52,
+                    255.36,
+                    239.52,
+                    216.36,
+                    200.52,
+                    177.36,
+                    161.52,
+                    138.36,
+                    127.36
                 ],
-                "dy": [
-                    15.84,
-                    22.752
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "WR2": {
+                "x": 771.24,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
                 ],
-                "width": 66.96,
-                "rotation": 0,
-                "fontsize": 8.5
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 2,
+                    "right": 1
+                },
+                "fontsize": 9
+            },
+            "WR3": {
+                "x": 848.4,
+                "y": [
+                    665.43,
+                    649.59,
+                    511.03,
+                    495.19,
+                    355.31,
+                    339.47,
+                    200.91,
+                    185.07
+                ],
+                "width": 77.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 1.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
+            },
+            "LR1": {
+                "x": 564.37,
+                "y": [
+                    703.97,
+                    688.22,
+                    626.8,
+                    611.05,
+                    549.63,
+                    533.88,
+                    472.46,
+                    456.71,
+                    393.93,
+                    378.18,
+                    316.76,
+                    301.01,
+                    239.59,
+                    223.84,
+                    162.42,
+                    146.67
+                ],
+                "width": 72.1,
+                "height": 15.16,
+                "margin": {
+                    "left": 0.5,
+                    "right": 1.5
+                },
+                "fontsize": 9
             }
-        ],
+        },
         "event": {
             "x": 272.0,
             "y": 58.88,
@@ -2218,6 +4446,224 @@
                 "type": "de",
                 "seeds": [
                     5,
+                    6
+                ]
+            }
+        ]
+    },
+    {
+        "template_file": "jm_16w16l_6adv.pdf",
+        "n_in_winners": 16,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 32,
+        "n_slots": 32,
+        "lookup_order": 205,
+        "legacy_code": "b",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "source": "Jackie Miller",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": 148.81,
+                "y": [
+                    1083.9181,
+                    1068.8925,
+                    1006.0651,
+                    991.0395,
+                    927.1688,
+                    912.1432,
+                    847.9231,
+                    832.8975,
+                    768.5164,
+                    753.4908,
+                    690.6634,
+                    675.6378,
+                    612.7671,
+                    597.7415,
+                    532.88,
+                    517.8544
+                ],
+                "width": 102.6,
+                "height": 12.6,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": 36.97,
+                "y": [
+                    387.0296,
+                    372.004,
+                    347.7945,
+                    332.7689,
+                    308.6689,
+                    293.6433,
+                    269.4338,
+                    254.4082,
+                    230.4011,
+                    215.3755,
+                    191.166,
+                    176.1404,
+                    151.0404,
+                    136.0148,
+                    111.8053,
+                    96.7797
+                ],
+                "width": 102.6,
+                "height": 12.6,
+                "margin": {
+                    "left": 2,
+                    "right": 17,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 10
+            }
+        },
+        "event": {
+            "x": 572.63,
+            "y": 1178.68,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": 572.63,
+            "y": 1152.65,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": 572.63,
+            "y": 1126.62,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": 572.63,
+            "y": 1100.59,
+            "width": 193.6,
+            "height": 17.44,
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": 589.68,
+            "y": 18.91,
+            "width": 756.5,
+            "height": 52.29,
+            "fontsize": 12,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": 546.41,
+                "y": 926.39,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ]
+            },
+            {
+                "x": 546.41,
+                "y": 611.71,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ]
+            },
+            {
+                "x": 546.41,
+                "y": 543.49,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ]
+            },
+            {
+                "x": 546.41,
+                "y": 858.17,
+                "width": 140,
+                "height": 30,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ]
+            },
+            {
+                "x": 658.71,
+                "y": 306.61,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ]
+            },
+            {
+                "x": 658.71,
+                "y": 150.78,
+                "width": 105,
+                "height": 40,
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
                     6
                 ]
             }

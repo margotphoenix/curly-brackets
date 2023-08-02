@@ -4,7 +4,7 @@ import warnings
 from reportlab.lib.colors import Color
 from reportlab.platypus import Paragraph, Frame, Table, TableStyle
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.pdfgen.textobject import PDFTextObject
+from reportlab.pdfgen.textobject import PDFTextObject as _PDFTextObject
 
 from curlybrackets.pdf.utilities import expand_kwargs, cycle_list
 
@@ -14,7 +14,11 @@ def gray2color(g):
         return Color(g, g, g)
 
 
-class CBTextObject(PDFTextObject):
+class PDFTextObject(_PDFTextObject):
+    def __init__(self, canvas, x=0, y=0, direction=None):
+        super().__init__(canvas, x, y, direction)
+        self._transform = [1, 0, 0, 1]
+
     def setFont(self, fontname, fontsize):
         if fontname != self._fontname or fontsize != self._fontsize:
             super().setFont(fontname, fontsize)
@@ -28,6 +32,10 @@ class CBTextObject(PDFTextObject):
         if not hasattr(self, '_gray') or gray != self._gray:
             super().setFillGray(gray)
             self._gray = gray
+
+    def setTextTransform(self, a, b, c, d, e, f):
+        super().setTextTransform(a, b, c, d, e, f)
+        self._transform = [a, b, c, d]
 
 
 class Element:
@@ -88,7 +96,7 @@ class Element:
         self._draw()
 
 
-class LineElement(Element):
+class _TextFieldElement(Element):
     required_args = ['width']
     optional_args = {'fontsize': None,
                      'fontname': None,
@@ -107,12 +115,20 @@ class LineElement(Element):
             line = str(line)
         fontsize = self.fontsize if self.fontsize else txobj._fontsize
         fontname = self.fontname if self.fontname else txobj._fontname
+        canv = txobj._canvas
 
-        line_width = txobj._canvas.stringWidth(line, fontname, fontsize)
+        line = line.strip()
+        if line.startswith('~~') and line.endswith('~~') and len(line) >= 5:
+            line = line[2:-3]
+            strike = True
+        else:
+            strike = False
+
+        line_width = canv.stringWidth(line, fontname, fontsize)
         hscale = 100 * self.width / (line_width if line_width > 0 else 1e-5)
         while hscale < self.min_hscale:
             fontsize -= 0.25
-            line_width = txobj._canvas.stringWidth(line, fontname, fontsize)
+            line_width = canv.stringWidth(line, fontname, fontsize)
             hscale = 100 * self.width / line_width
         if hscale > 100:
             hscale = 100
@@ -132,6 +148,21 @@ class LineElement(Element):
         txobj._textOut(line)
         txobj.setXPos(-shift)
 
+        if strike:
+            a, b, c, d = txobj._transform
+            determ = a * d - b * c
+            dx1 = shift
+            dx2 = shift + line_width
+            dy = 0.25 * fontsize
+            x1 = txobj.getX() + (dx1 * d - dy * b) / determ
+            x2 = txobj.getX() + (dx2 * d - dy * b) / determ
+            y1 = txobj.getY() + (dy * a - dx1 * c) / determ
+            y2 = txobj.getY() + (dy * a - dx2 * c) / determ
+            osc = canv._strokeColorObj
+            if osc != (self.textgray, self.textgray, self.textgray):
+                canv.setStrokeGray(self.textgray)
+            canv.line(x1, y1, x2, y2)
+
     def draw(self, txobj, line=None, **kwargs):
         if line:
             frame_kwargs = self.filter_kwargs(kwargs)[0]
@@ -141,7 +172,7 @@ class LineElement(Element):
                 self._draw(txobj, line)
 
 
-class TextElement(Element):
+class TextFieldElement(Element):
     required_args = ['x', 'y', 'width']
     optional_args = {'rotation': 0,
                      'fontsize': None,
@@ -155,13 +186,13 @@ class TextElement(Element):
         self.cos = math.cos(self.rotation * math.pi / 180)
         self.sin = math.sin(self.rotation * math.pi / 180)
 
-    def _draw(self, canvas, text, **kwargs):
-        txobj = CBTextObject(canvas)
+    def _draw(self, canvas, line, **kwargs):
+        txobj = PDFTextObject(canvas)
         txobj.setTextTransform(self.cos, self.sin, -self.sin, self.cos,
                                self.x, self.y)
 
-        lineframe = LineElement.without_meta(**self.as_dict(), **kwargs)
-        lineframe._draw(txobj, text)
+        lineframe = _TextFieldElement.without_meta(**self.as_dict(), **kwargs)
+        lineframe._draw(txobj, line)
 
         txobj.setHorizScale(100)
         canvas.drawText(txobj)
@@ -175,7 +206,7 @@ class TextElement(Element):
                 self._draw(canvas, text, **other_kwargs)
 
 
-class NameListElement(TextElement):
+class TextListElement(TextFieldElement):
     required_args = ['x0', 'y0', 'width', 'max_lines']
     optional_args = {'rotation': 0,
                      'dx': [0],
@@ -191,22 +222,23 @@ class NameListElement(TextElement):
         self.dx = cycle_list(self.max_lines, self.dx)
         self.dy = cycle_list(self.max_lines, self.dy)
 
-    def _draw(self, canvas, names, **kwargs):
-        if not isinstance(names, (list, tuple)):
-            names = [names]
+    def _draw(self, canvas, lines, **kwargs):
+        if not isinstance(lines, (list, tuple)):
+            lines = [lines]
 
-        if len(names) > self.max_lines:
+        if len(lines) > self.max_lines:
             warnings.warn('Frame cannot hold all lines')
 
-        txobj = CBTextObject(canvas)
+        txobj = PDFTextObject(canvas)
         txobj.setTextTransform(self.cos, self.sin, -self.sin, self.cos,
                                self.x0, self.y0)
 
-        n_lines = min(len(names), self.max_lines)
-        var_kwargs = expand_kwargs(len(names), **self.as_dict(), **kwargs)
+        n_lines = min(len(lines), self.max_lines)
+        var_kwargs = expand_kwargs(len(lines), **self.as_dict(), **kwargs)
         for i in range(n_lines):
-            lineframe = LineElement.without_meta(**var_kwargs[i])
-            lineframe._draw(txobj, names[i])
+            if lines[i] is not None:
+                lineframe = _TextFieldElement.without_meta(**var_kwargs[i])
+                lineframe._draw(txobj, lines[i])
             if i + 1 < n_lines:
                 txobj.moveCursor((self.dx[i] * self.cos - self.dy[i] * self.sin),
                                  (self.dx[i] * self.sin + self.dy[i] * self.cos))
@@ -214,13 +246,13 @@ class NameListElement(TextElement):
         txobj.setHorizScale(100)
         canvas.drawText(txobj)
 
-    def draw(self, canvas, names=None, **kwargs):
-        if names:
+    def draw(self, canvas, lines=None, **kwargs):
+        if lines:
             frame_kwargs, other_kwargs = self.filter_kwargs(kwargs)
             if any(getattr(self, k) != frame_kwargs[k] for k in frame_kwargs):
-                self.clone(**frame_kwargs)._draw(canvas, names, **other_kwargs)
+                self.clone(**frame_kwargs)._draw(canvas, lines, **other_kwargs)
             else:
-                self._draw(canvas, names, **other_kwargs)
+                self._draw(canvas, lines, **other_kwargs)
 
 
 class RectElement(Element):
@@ -252,13 +284,232 @@ class RectElement(Element):
             self._draw(canvas)
 
 
+class _SlotElement(Element):
+    required_args = ['width', 'height']
+    optional_args = {'fontsize': None,
+                     'fontname': None,
+                     'min_hscale': 100,
+                     'alignment': 'left',
+                     'valign': 'middle',
+                     'textgray': 0, 
+                     'margin': 0}
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        if isinstance(self.alignment, int):
+            self.alignment = ['left', 'center', 'right'][self.alignment]
+        self.alignment = self.alignment.lower()
+
+        if isinstance(self.valign, int):
+            self.valign = ['bottom', 'middle', 'top'][self.valign]
+        self.valign = self.valign.lower()
+
+        if isinstance(self.margin, (int, float)):
+            self.margin = {k: self.margin
+                           for k in ['top', 'right', 'bottom', 'left']}
+        elif isinstance(self.margin, (list, tuple)):
+            while len(self.margin) < 4:
+                self.margin = list(self.margin) * 2
+            self.margin = {k: m for k, m in zip(['top', 'right', 'bottom', 'left'],
+                                                self.margin)}
+        else:
+            self.margin = {k: self.margin.get(k, 0)
+                           for k in ['top', 'right', 'bottom', 'left']}
+
+    def _draw(self, txobj, line):
+        if not isinstance(line, str):
+            line = str(line)
+        fontsize = self.fontsize if self.fontsize else txobj._fontsize
+        fontname = self.fontname if self.fontname else txobj._fontname
+        canv = txobj._canvas
+
+        line = line.strip()
+        if line.startswith('~~') and line.endswith('~~') and len(line) >= 5:
+            line = line[2:-3]
+            strike = True
+        else:
+            strike = False
+
+        avail_width = self.width - self.margin['left'] - self.margin['right']
+        avail_height = self.height - self.margin['top'] - self.margin['bottom']
+
+        line_width = canv.stringWidth(line, fontname, fontsize)
+        hscale = 100 * avail_width / (line_width if line_width > 0 else 1e-5)
+        while hscale < self.min_hscale:
+            fontsize -= 0.25
+            line_width = canv.stringWidth(line, fontname, fontsize)
+            hscale = 100 * avail_width / line_width
+        if hscale > 100:
+            hscale = 100
+        else:
+            line_width = avail_width
+
+        if self.alignment == 'right':
+            hshift = self.width - self.margin['right'] - line_width
+        elif self.alignment in ['center', 'centre']:
+            hshift = self.margin['left'] + 0.5 * (avail_width - line_width)
+        else:
+            hshift = self.margin['left']
+        if self.valign == 'top':
+            vshift = self.height - self.margin['top'] - fontsize
+        elif self.valign == 'middle':
+            vshift = self.margin['bottom'] + 0.5 * (avail_height - fontsize)
+        else:
+            vshift = self.margin['bottom']
+        # vshift = 3
+        txobj.moveCursor(hshift, -vshift)
+        txobj.setFont(fontname, fontsize)
+        txobj.setHorizScale(hscale)
+        txobj.setFillGray(self.textgray)
+        txobj._textOut(line)
+        txobj.moveCursor(-hshift, vshift)
+
+        if strike:
+            a, b, c, d = txobj._transform
+            determ = a * d - b * c
+            dx1 = hshift
+            dx2 = hshift + line_width
+            dy = vshift + 0.25 * fontsize
+            x1 = txobj.getX() + (dx1 * d - dy * b) / determ
+            x2 = txobj.getX() + (dx2 * d - dy * b) / determ
+            y1 = txobj.getY() + (dy * a - dx1 * c) / determ
+            y2 = txobj.getY() + (dy * a - dx2 * c) / determ
+            osc = canv._strokeColorObj
+            if osc != (self.textgray, self.textgray, self.textgray):
+                canv.setStrokeGray(self.textgray)
+            canv.line(x1, y1, x2, y2)
+
+    def draw(self, txobj, line=None, **kwargs):
+        if line:
+            frame_kwargs = self.filter_kwargs(kwargs)[0]
+            if any(getattr(self, k) != frame_kwargs[k] for k in frame_kwargs):
+                self.clone(**frame_kwargs)._draw(txobj, line)
+            else:
+                self._draw(txobj, line)
+
+
+class SlotElement(TextFieldElement):
+    required_args = ['x', 'y', 'width', 'height']
+    optional_args = {'rotation': 0,
+                     'fontsize': None,
+                     'fontname': None,
+                     'min_hscale': 100,
+                     'alignment': 'left',
+                     'textgray': 0,
+                     'margin': 0, 
+                     'backgray': 0,
+                     'bordergray': None,
+                     'borderwidth': 0}
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        if isinstance(self.margin, (int, float)):
+            self.margin = {k: self.margin
+                           for k in ['top', 'right', 'bottom', 'left']}
+        elif isinstance(self.margin, (list, tuple)):
+            while len(self.margin) < 4:
+                self.margin = list(self.margin) * 2
+            self.margin = {k: m for k, m in zip(['top', 'right', 'bottom', 'left'],
+                                                self.margin)}
+        else:
+            self.margin = {k: self.margin.get(k, 0)
+                           for k in ['top', 'right', 'bottom', 'left']}
+        self.rect = RectElement.without_meta(**self.as_dict())
+
+    def _draw(self, canvas, content, **kwargs):
+        if content is None:
+            self.rect._draw(canvas)
+        else:
+            txobj = PDFTextObject(canvas)
+            txobj.setTextTransform(
+                self.cos, self.sin, -self.sin, self.cos,
+                self.x, self.y)
+
+            lineframe = _SlotElement.without_meta(**self.as_dict(), **kwargs)
+            lineframe._draw(txobj, content)
+
+            txobj.setHorizScale(100)
+            canvas.drawText(txobj)
+
+    def draw(self, canvas, content=None, **kwargs):
+        frame_kwargs, other_kwargs = self.filter_kwargs(kwargs)
+        if any(getattr(self, k) != frame_kwargs[k] for k in frame_kwargs):
+            self.clone(**frame_kwargs)._draw(canvas, content, **other_kwargs)
+        else:
+            self._draw(canvas, content, **other_kwargs)
+
+
+class SlotListElement(SlotElement):
+    required_args = ['x', 'y', 'width', 'height', 'num_slots']
+    optional_args = {'rotation': 0,
+                     'fontsize': None,
+                     'fontname': None,
+                     'min_hscale': 100,
+                     'alignment': 'left',
+                     'textgray': 0,
+                     'margin': 0,
+                     'backgray': 0.01,
+                     'bordergray': None,
+                     'borderwidth': 0}
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        if not isinstance(self.x, (list, tuple)):
+            self.x = [self.x] * self.num_slots
+        if not isinstance(self.y, (list, tuple)):
+            self.y = [self.y] * self.num_slots
+
+        var_kwargs = expand_kwargs(self.num_slots, **self.as_dict())
+        self.rects = [RectElement.without_meta(**vk) for vk in var_kwargs]
+
+    def _draw(self, canvas, contents, **kwargs):
+        if not isinstance(contents, (list, tuple)):
+            contents = [contents]
+
+        if len(contents) > self.num_slots:
+            warnings.warn('Lines exceed available slots')
+
+        txobj = PDFTextObject(canvas)
+        txobj.setTextTransform(self.cos, self.sin, -self.sin, self.cos,
+                               self.x[0], self.y[0])
+        rects_to_draw = []
+
+        var_kwargs = expand_kwargs(len(contents), **self.as_dict(), **kwargs)
+        for i in range(self.num_slots):
+            if i >= len(contents) or contents[i] is None:
+                rects_to_draw.append(i)
+            elif contents[i] != '':
+                lineframe = _SlotElement.without_meta(**var_kwargs[i])
+                lineframe._draw(txobj, contents[i])
+            if i + 1 < self.num_slots:
+                dx = self.x[i] - self.x[i+1]
+                dy = self.y[i] - self.y[i+1]
+                txobj.moveCursor((dx * self.cos - dy * self.sin),
+                                 (dx * self.sin + dy * self.cos))
+
+        txobj.setHorizScale(100)
+        canvas.drawText(txobj)
+
+        for i in rects_to_draw:
+            self.rects[i]._draw(canvas)
+
+
+    def draw(self, canvas, contents=None, **kwargs):
+        frame_kwargs, other_kwargs = self.filter_kwargs(kwargs)
+        if any(getattr(self, k) != frame_kwargs[k] for k in frame_kwargs):
+            self.clone(**frame_kwargs)._draw(canvas, contents, **other_kwargs)
+        else:
+            self._draw(canvas, contents, **other_kwargs)
+
+
 class ParagraphElement(RectElement):
     required_args = ['x', 'y', 'width', 'height']
     optional_args = {'alignment': 0,
                      'fontsize': None,
                      'fontname': None,
                      'textgray': 0,
-                     'backgray': 1,
+                     'backgray': None,
                      'bordergray': None,
                      'borderwidth': 0,
                      'valign': 2}

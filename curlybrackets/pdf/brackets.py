@@ -10,8 +10,9 @@ from reportlab.pdfgen.canvas import Canvas
 from PyPDF2 import PdfFileReader
 
 from curlybrackets.pdf import templates
-from curlybrackets.pdf.elements import (TextElement,
-                                        NameListElement,
+from curlybrackets.pdf.elements import (TextFieldElement,
+                                        TextListElement,
+                                        SlotListElement,
                                         ParagraphElement,
                                         ItemListElement,
                                         ImageElement)
@@ -25,18 +26,28 @@ from curlybrackets.pdf.utilities import (expand_kwargs,
 
 class Template:
     def __init__(self, template_file, format,
-                 bracket_size, page, elements, names, **kwargs):
+                 bracket_size, page, elements, **kwargs):
         self.template_file = template_file
         self.format = format
         self.bracket_size = bracket_size
         self.page = Page(**page)
 
-        self.names = [self.build_element('names', max_lines=bracket_size, **np)
-                      for np in names]
         self.elements = ['names']
+        names = kwargs.get('names')
+        if isinstance(names, dict):
+            self.names = {
+                k: self.build_element('slotlist', **names[k])
+                for k in names 
+            }
+        else: 
+            self.names = [
+                self.build_element('textlist', max_lines=bracket_size, **n) 
+                for n in names
+            ]
+            self.elements.append('names')
 
         for e in elements:
-            if e == 'names':
+            if e in ['names']:
                 continue
             element_props = kwargs.pop(e)
             if isinstance(element_props, dict):
@@ -51,19 +62,22 @@ class Template:
 
     @staticmethod
     def build_element(element_name, **element_props):
-        if element_name in ['names']:
-            base_class = NameListElement
+        if element_name in ['slotlist']:
+            base_class = SlotListElement
+            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 60}
+        elif element_name in ['textlist']:
+            base_class = TextListElement
             element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 60}
         elif element_name in ['event', 'label']:
-            base_class = TextElement
+            base_class = TextFieldElement
             element_defaults = {'fontname': BASE_FONT, 'min_hscale': 90}
         elif element_name in ['pool', 'date', 'total']:
-            base_class = TextElement
+            base_class = TextFieldElement
             element_defaults = {'fontname': BASE_FONT,
                                 'alignment': 'center',
                                 'min_hscale': 90}
         elif element_name in ['judge']:
-            base_class = TextElement
+            base_class = TextFieldElement
             element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 90}
         elif element_name in ['progressions']:
             # if element_props.get('type') == 'list':
@@ -90,8 +104,15 @@ class Template:
                              initialFontName=DEFAULT_FONT)
 
     def draw_names(self, names, **kwargs):
-        for name_element in self.names:
-            name_element.draw(self.canvas, names, **kwargs)
+        if isinstance(self.names, dict): 
+            if not isinstance(names, dict):
+                names = {'WR1': names}
+            for round in names:
+                name_element = self.names[round]
+                name_element.draw(self.canvas, names[round], **kwargs)
+        else:
+            for name_element in self.names:
+                name_element.draw(self.canvas, names, **kwargs)
 
     def draw_progressions(self, progressions, format_string=None, **kwargs):
         if format_string is None:
