@@ -107,9 +107,22 @@ class Template:
         if isinstance(self.names, dict): 
             if not isinstance(names, dict):
                 names = {'WR1': names}
+            rnd_kws = []
+            oth_kwargs = {}
+            for kw in kwargs:
+                if (isinstance(kwargs[kw], dict) 
+                    and 'WR1' in kwargs[kw]):
+                    rnd_kws.append(kw)
+                else:
+                    oth_kwargs[kw] = kwargs[kw]
             for round in names:
+                rnd_kwargs = {k: kwargs[k][round] 
+                              for k in rnd_kws}
                 name_element = self.names[round]
-                name_element.draw(self.canvas, names[round], **kwargs)
+                name_element.draw(self.canvas, 
+                                  names[round],
+                                  **rnd_kwargs, 
+                                  **oth_kwargs)
         else:
             for name_element in self.names:
                 name_element.draw(self.canvas, names, **kwargs)
