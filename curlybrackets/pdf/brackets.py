@@ -213,7 +213,7 @@ class Template:
 
 
 class TemplateLookup:
-    key_field = 'template_file'
+    key_field = 'key'
     sort_field = 'lookup_order'
     reserve_field = 'reserve_options'
     fields = [

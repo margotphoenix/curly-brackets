@@ -1,5 +1,6 @@
 [
     {
+        "key": "8player-bracket-ofl",
         "template_file": "8player_Bracket.pdf",
         "n_entrants": 8,
         "n_in_winners": 4,
@@ -87,6 +88,7 @@
         }
     },
     {
+        "key": "16player-bracket-ofl",
         "template_file": "16player_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -174,6 +176,7 @@
         }
     },
     {
+        "key": "32player-bracket-ofl",
         "template_file": "32player_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -261,6 +264,7 @@
         }
     },
     {
+        "key": "2w4l-bracket-ofl",
         "template_file": "2w4l_Bracket.pdf",
         "n_in_winners": 2,
         "n_in_losers": 4,
@@ -343,6 +347,7 @@
         }
     },
     {
+        "key": "4w8l-bracket-ofl",
         "template_file": "4w8l_Bracket.pdf",
         "n_in_winners": 4,
         "n_in_losers": 8,
@@ -425,6 +430,7 @@
         }
     },
     {
+        "key": "8w16l-bracket-jm",
         "template_file": "jm_8w16l_bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -548,6 +554,7 @@
         }
     },
     {
+        "key": "8w16l-bracket-ofl",
         "template_file": "8w16l_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -736,6 +743,7 @@
         }
     },
     {
+        "key": "8player-2adv-ofl",
         "template_file": "8player_2out_Bracket.pdf",
         "n_entrants": 8,
         "n_in_winners": 4,
@@ -851,6 +859,7 @@
         ]
     },
     {
+        "key": "16player-2adv-ofl",
         "template_file": "16player_2out_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -966,6 +975,7 @@
         ]
     },
     {
+        "key": "32player-2adv-ofl",
         "template_file": "32player_2out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -1081,6 +1091,7 @@
         ]
     },
     {
+        "key": "16player-3adv-jm",
         "template_file": "jm_16ppl_3adv.pdf",
         "n_entrants": 16,
         "format": "double-elimination",
@@ -1294,6 +1305,7 @@
         ]
     },
     {
+        "key": "16player-3adv-ofl",
         "template_file": "16player_3out_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -1512,6 +1524,7 @@
         ]
     },
     {
+        "key": "24player-3adv-jm",
         "template_file": "jm_24ppl_3adv.pdf",
         "n_entrants": 24,
         "format": "double-elimination",
@@ -1718,6 +1731,7 @@
         ]
     },
     {
+        "key": "32player-3adv-ofl",
         "template_file": "32player_3out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -1980,6 +1994,7 @@
         ]
     },
     {
+        "key": "8w16l-3adv-ofl",
         "template_file": "8w16l_3out_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -2101,6 +2116,7 @@
         ]
     },
     {
+        "key": "8player-4adv-ofl",
         "template_file": "8player_4out_Bracket.pdf",
         "n_entrants": 8,
         "n_in_winners": 4,
@@ -2220,6 +2236,7 @@
         ]
     },
     {
+        "key": "16player-4adv-ofl",
         "template_file": "16player_4out_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -2337,6 +2354,7 @@
         ]
     },
     {
+        "key": "24player-4adv-jm",
         "template_file": "jm_24ppl_4adv.pdf",
         "n_entrants": 24,
         "format": "double-elimination",
@@ -2557,6 +2575,7 @@
         ]
     },
     {
+        "key": "32player-4adv-ofl",
         "template_file": "32player_4out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -2808,6 +2827,7 @@
         ]
     },
     {
+        "key": "4w8l-4adv-ofl",
         "template_file": "4w8l_4out_Bracket.pdf",
         "n_in_winners": 4,
         "n_in_losers": 8,
@@ -2918,6 +2938,7 @@
         ]
     },
     {
+        "key": "8w16l-4adv-ofl",
         "template_file": "8w16l_4out_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -3028,6 +3049,7 @@
         ]
     },
     {
+        "key": "16player-6adv-ofl",
         "template_file": "16player_6out_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -3171,6 +3193,7 @@
         ]
     },
     {
+        "key": "24player-6adv-jm",
         "template_file": "jm_24ppl_6adv.pdf",
         "n_entrants": 24,
         "format": "double-elimination",
@@ -3419,6 +3442,7 @@
         ]
     },
     {
+        "key": "32player-6adv-jm",
         "template_file": "jm_32ppl_6adv.pdf",
         "n_entrants": 32,
         "format": "double-elimination",
@@ -3714,6 +3738,7 @@
         ]
     },
     {
+        "key": "32player-6adv-ofl",
         "template_file": "32player_6out_Bracket.pdf",
         "n_entrants": 32,
         "format": "double-elimination",
@@ -4000,6 +4025,7 @@
         ]
     },
     {
+        "key": "8w16l-6adv-jm",
         "template_file": "jm_8w16l_6adv.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -4210,6 +4236,7 @@
         ]
     },
     {
+        "key": "8w16l-6adv-ofl",
         "template_file": "8w16l_6out_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -4452,6 +4479,7 @@
         ]
     },
     {
+        "key": "16w16l-6adv-jm",
         "template_file": "jm_16w16l_6adv.pdf",
         "n_in_winners": 16,
         "n_in_losers": 16,
@@ -4670,6 +4698,7 @@
         ]
     },
     {
+        "key": "16player-8adv-ofl",
         "template_file": "16player_8out_Bracket.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -4815,6 +4844,7 @@
         ]
     },
     {
+        "key": "32player-8adv-ofl",
         "template_file": "32player_8out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -4959,6 +4989,7 @@
         ]
     },
     {
+        "key": "8w16l-8adv-ofl",
         "template_file": "8w16l_8out_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -5097,6 +5128,7 @@
         ]
     },
     {
+        "key": "32player-12adv-ofl",
         "template_file": "32player_12out_Bracket.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -5269,6 +5301,7 @@
         ]
     },
     {
+        "key": "8w16l-12adv-ofl",
         "template_file": "8w16l_12out_Bracket.pdf",
         "n_in_winners": 8,
         "n_in_losers": 16,
@@ -5435,6 +5468,7 @@
         ]
     },
     {
+        "key": "8player-de-playpool",
         "template_file": "playpool8de.pdf",
         "n_entrants": 8,
         "n_in_winners": 4,
@@ -5519,6 +5553,7 @@
         }
     },
     {
+        "key": "16player-de-playpool",
         "template_file": "playpool16de.pdf",
         "n_entrants": 16,
         "n_in_winners": 8,
@@ -5603,6 +5638,7 @@
         }
     },
     {
+        "key": "32player-de-playpool",
         "template_file": "playpool32de.pdf",
         "n_entrants": 32,
         "n_in_winners": 16,
@@ -5718,6 +5754,7 @@
         }
     },
     {
+        "key": "64player-de-playpool",
         "template_file": "playpool64de.pdf",
         "n_entrants": 64,
         "n_in_winners": 32,
@@ -5802,6 +5839,144 @@
         }
     },
     {
+        "key": "16w32l-de-playpool",
+        "template_file": "playpool64de.pdf",
+        "n_in_winners": 16,
+        "n_in_losers": 32,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 48,
+        "n_slots": 48,
+        "lookup_order": 935,
+        "legacy_code": "z",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "landscape",
+        "source": "playpool",
+        "reserve_options": {
+            "n_advance": null
+        },
+        "elements": [
+            "judge",
+            "image",
+            "names",
+            "label",
+            "date"
+        ],
+        "page": {
+            "width": 17,
+            "height": 11,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1":{
+                "num_slots": 16,
+                "x": 813.19,
+                "y": [
+                    740.14,
+                    697.774,
+                    655.408,
+                    613.042,
+                    570.676,
+                    528.31,
+                    485.944,
+                    443.578,
+                    401.212,
+                    358.846,
+                    316.48,
+                    274.114,
+                    231.748,
+                    189.382,
+                    147.016,
+                    104.65
+                ],
+                "width": 56,
+                "height": 10,
+                "margin": {
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0
+                },
+                "fontsize": 8
+            },
+            "LR1": {
+                "num_slots": 32,
+                "x": 568.58,
+                "y": [
+                    740.14,
+                    718.957,
+                    697.774,
+                    676.591,
+                    655.408,
+                    634.225,
+                    613.042,
+                    591.859,
+                    570.676,
+                    549.493,
+                    528.31,
+                    507.127,
+                    485.944,
+                    464.761,
+                    443.578,
+                    422.395,
+                    401.212,
+                    380.029,
+                    358.846,
+                    337.663,
+                    316.48,
+                    295.297,
+                    274.114,
+                    252.931,
+                    231.748,
+                    210.565,
+                    189.382,
+                    168.199,
+                    147.016,
+                    125.833,
+                    104.65,
+                    83.467                    
+                ],
+                "width": 56,
+                "height": 10,
+                "margin": {
+                    "left": 0,
+                    "right": 0,
+                    "top": 0,
+                    "bottom": 0
+                },
+                "fontsize": 8
+            }
+        },
+        "label": {
+            "x": 136.64,
+            "y": 732.08,
+            "width": 122.72,
+            "height": 13.84,
+            "fontsize": 14
+        },
+        "judge": {
+            "x": 179.12,
+            "y": 706.88,
+            "width": 80.96,
+            "height": 11.68,
+            "fontsize": 13
+        },
+        "date": {
+            "x": 62.48,
+            "y": 706.88,
+            "width": 57.92,
+            "height": 11.68,
+            "fontsize": 13
+        },
+        "image": {
+            "x": 944.64,
+            "y": 72.72,
+            "width": 210.24,
+            "height": 84.96
+        }
+    },
+    {
+        "key": "10player-rr-ofl",
         "template_file": "10player_RRGrid.pdf",
         "n_entrants": [
             1,
@@ -5928,6 +6103,7 @@
         ]
     },
     {
+        "key": "11player-rr-ofl",
         "template_file": "11player_RRGrid.pdf",
         "n_entrants": [
             1,
@@ -6056,6 +6232,7 @@
         ]
     },
     {
+        "key": "10player-rr-playpool",
         "template_file": "roundrobin.pdf",
         "n_entrants": [
             1,
@@ -6148,6 +6325,7 @@
         }
     },
     {
+        "key": "8player-se-playpool",
         "template_file": "playpool8se.pdf",
         "n_entrants": 8,
         "format": "single-elimination",
@@ -6226,6 +6404,7 @@
         }
     },
     {
+        "key": "16player-se-playpool",
         "template_file": "playpool16se.pdf",
         "n_entrants": 16,
         "format": "single-elimination",
@@ -6304,6 +6483,7 @@
         }
     },
     {
+        "key": "32player-se-playpool",
         "template_file": "playpool32se.pdf",
         "n_entrants": 32,
         "format": "single-elimination",
