@@ -8,6 +8,9 @@ This repository contains nearly all the event-organizing tools I built out over 
 - Some API methods for interfacing with the [start.gg GraphQL API](https://developer.start.gg/explorer) and the [Challonge v1 API](https://api.challonge.com/v1), although the latter is rather dated
 
 Everything is written in Python, and designed to work with Python 3.8. It can even be installed as a module if you want!
+```
+pip install git+https://github.com/margotphoenix/curly-brackets
+```
 
 Right now my code is still very messy and inconsistent in several places. I'm not really sure how useful most of this is for others even once it gets to a more usable state. That said, I'm glad to finally move this over to a public repository so that any people interested in contributing could get the opportunity.
 
