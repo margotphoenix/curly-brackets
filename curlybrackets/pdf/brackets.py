@@ -16,12 +16,41 @@ from curlybrackets.pdf.elements import (TextFieldElement,
                                         ParagraphElement,
                                         ItemListElement,
                                         ImageElement)
-from curlybrackets.pdf.pages import Page
+from curlybrackets.pdf.lengths import Length
 from curlybrackets.pdf.fonts import DEFAULT_FONT, BASE_FONT
 from curlybrackets.pdf.utilities import (expand_kwargs,
                                          collapse_kwargs,
                                          ProgressionFormatter, 
                                          NBSP, ENDA)
+
+
+class Page:
+    def __init__(self, width, height, unit='pt'):
+        self.width = Length(width, unit)
+        self.height = Length(height, unit)
+
+    @property
+    def size(self):
+        return (self.width.size, self.height.size)
+
+    def flip(self):
+        self.width, self.height = self.height, self.width
+
+
+def get_paper(size_name, orientation='landscape'):
+    if size_name in ['US Letter']:
+        paper = Page(11, 8.5, 'in')
+    elif size_name in ['US Legal']:
+        paper = Page(14, 8.5, 'in')
+    elif size_name in ['US Tabloid']:
+        paper = Page(17, 11, 'in')
+    elif size_name in ['A4']: 
+        paper = Page(297, 210, 'mm')
+    elif size_name in ['A3']:
+        paper = Page(420, 297, 'mm')
+    if orientation == 'portrait':
+        paper.flip()
+    return paper
 
 
 class Template:
@@ -33,7 +62,7 @@ class Template:
         self.page = Page(**page)
 
         self.elements = ['names']
-        names = kwargs.get('names')
+        names = kwargs.pop('names')
         if isinstance(names, dict):
             self.names = {
                 k: self.build_element('slotlist', **names[k])
@@ -44,11 +73,10 @@ class Template:
                 self.build_element('textlist', max_lines=bracket_size, **n) 
                 for n in names
             ]
-            self.elements.append('names')
 
         for e in elements:
-            if e in ['names']:
-                continue
+            # if e in ['names']:
+            #     continue
             element_props = kwargs.pop(e)
             if isinstance(element_props, dict):
                 element = self.build_element(e, **element_props)

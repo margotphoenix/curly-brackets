@@ -7,6 +7,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfgen.textobject import PDFTextObject as _PDFTextObject
 
 from curlybrackets.pdf.utilities import expand_kwargs, cycle_list
+from curlybrackets.pdf.lengths import Length
 
 
 def gray2color(g):
@@ -50,11 +51,25 @@ class Element:
             )
         all_args = {**self.optional_args, **kwargs}
         for key in all_args:
-            setattr(self, key, all_args[key])
+            value = all_args[key]
+            # If argument is specified as a value-unit dictionary
+            if (isinstance(value, dict) and len(value) == 2
+                and 'value' in value and 'unit' in value):
+                unit = value['unit']
+                value = value['value']
+                if isinstance(value, (int, float)):
+                    value = Length(value, unit).size
+                elif isinstance(value, (list, tuple)):
+                    value = [Length(v, unit).size for v in value]
+                elif isinstance(value, dict):
+                    value = {k: Length(value[k], unit).size 
+                             for k in value}
+            setattr(self, key, value)
+                
 
     @classmethod
     def frame_args(cls):
-        return (cls.required_args + list(cls.optional_args))
+        return (['unit'] + cls.required_args + list(cls.optional_args))
 
     @classmethod
     def filter_kwargs(cls, dct=None, **kwargs):
