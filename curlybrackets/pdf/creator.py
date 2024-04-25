@@ -50,7 +50,7 @@ def _auto_advance_entrants(entrants, names, format):
             rnds['LR1'] = [
                 nms[2*i+1] if rnds['WR2'][i] == nms[2*i] else ''
                 for i in range(bsize//2)]
-            rnds['LR1'] = [
+            rnds['LR2'] = [
                 '' if i % 2 == 0 else rnds['LR1'][i]
                 for i in range(bsize//2)]
 
@@ -173,25 +173,47 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
                   total=total, names_textgray=names_textgray, **kwargs)
 
 
-def print_continued_bracket(filename, in_winners, in_losers,
+def print_continued_bracket(filename, winners_entrants=None, losers_entrants=None,
+                            winners_origins=None, losers_origins=None,
                             format='double-elimination', n_advance=0,
-                            winners_arrow='\u226b', losers_arrow='\u226a', 
-                            pre_advance=False, **kwargs):
+                            # winners_arrow='\u226b', losers_arrow='\u226a', 
+                            **kwargs):
     """ Make bracket pdf where some players start in losers
 
     Parameters
     ----------
     filename : str
-    in_winners :
-    in_losers :
+    winners_entrants :
+    losers_entrants :
     """
-    if not isinstance(in_winners[0], (tuple, list)):
-        in_winners = [in_winners]
-    if not isinstance(in_losers[0], (tuple, list)):
-        in_losers = [in_losers]
-    if len(in_winners) != len(in_losers):
-        raise ValueError('Winners and losers name lists must be same length')
+    if (winners_entrants is None and losers_entrants is None 
+        and winners_origins is None and losers_origins is None):
+        raise ValueError('Must specify either names or origins')
+        
+    if winners_entrants is not None and not isinstance(winners_entrants[0], (tuple, list)):
+        winners_entrants = [winners_entrants]
+    if losers_entrants is not None and not isinstance(losers_entrants[0], (tuple, list)):
+        losers_entrants = [losers_entrants]
+    if (winners_entrants is not None and losers_entrants is not None 
+        and len(winners_entrants) != len(losers_entrants)):
+        raise ValueError('Winners and losers entrant lists must be same length')
+    if winners_origins is not None and not isinstance(winners_origins[0], (tuple, list)):
+        winners_origins = [winners_origins]
+    if losers_origins is not None and not isinstance(losers_origins[0], (tuple, list)):
+        losers_origins = [losers_origins]
+    if (winners_origins is not None and losers_origins is not None 
+        and len(winners_origins) != len(losers_origins)):
+        raise ValueError('Winners and losers origin lists must be same length')
 
+    if (winners_entrants is not None and losers_entrants is not None 
+        and winners_origins is None and losers_origins is None):
+        winners_origins = [None] * len(winners_entrants)
+        losers_origins = [None] * len(losers_entrants)
+    elif (winners_entrants is None and losers_entrants is None 
+          and winners_origins is not None and losers_origins is not None):
+        winners_entrants = [None] * len(winners_origins)
+        losers_entrants = [None] * len(losers_origins)
+    
     format = get_format(format)
     if format != 'double-elimination':
         raise ValueError(f'Cannot create continued bracket with'
@@ -199,37 +221,23 @@ def print_continued_bracket(filename, in_winners, in_losers,
 
     names = []
     names_vkwargs = []
-    for win, los in zip(in_winners, in_losers):
-        nms_vkw = {'n_in_winners': len(win),
-                   'n_in_losers': len(los),
-                   'total': str(len(win)+len(los))}
-
-        if pre_advance:
-            nms = {
-                'WR1': win,
-                'LR1': los
-            }
-        else:
-            if winners_arrow:
-                win = [f'{n} {winners_arrow}' for n in win]
-            if losers_arrow:
-                los = [f'{losers_arrow} {n}' for n in los]
-
-            nms = []
-            if len(los) == 2*len(win):
-                for i in range(len(win)):
-                    nms += [win[i], los[2*i], '', los[2*i+1]]
-            elif len(los) == len(win):
-                for i in range(len(win)):
-                    nms += [win[i], los[i]]
-            else:
-                raise ValueError('Incompatible lengths for winners and losers'
-                                'name lists')
-
-            nms_aln = []
-            for i in range(len(los)):
-                nms_aln += ['right', 'left']
-            nms_vkw.update(names_alignment=nms_aln)
+    names_iter = zip(winners_entrants, losers_entrants, winners_origins, losers_origins)
+    for win_e, los_e, win_o, los_o in names_iter:
+        n_in_winners = max(len(win_e or []), len(win_o or []))
+        n_in_losers = max(len(los_e or []), len(los_o or []))
+        nms_vkw = {'n_in_winners': n_in_winners,
+                   'n_in_losers': n_in_losers,
+                   'total': str(n_in_winners + n_in_losers)}
+        
+        nms = {}
+        if win_e is not None:
+            nms['WR1'] = win_e
+        if los_e is not None:
+            nms['LR1'] = los_e
+        if win_o is not None:
+            nms['WR0'] = win_o
+        if los_o is not None:
+            nms['LR0'] = los_o
 
         names.append(nms)
         names_vkwargs.append(nms_vkw)
