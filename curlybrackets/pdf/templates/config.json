@@ -497,7 +497,9 @@
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 12
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
             },
             "LR0": {
                 "num_slots": 16,
@@ -540,7 +542,9 @@
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 12
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
             },
             "WR1": {
                 "num_slots": 8,
@@ -562,7 +566,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -571,7 +575,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -605,7 +609,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -614,7 +618,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -720,6 +724,298 @@
             },
             "fontsize": 10,
             "section_header": "<b>Notes:</b>"
+        }
+    },
+    {
+        "key": "8w16l-bracket-ms-jp",
+        "template_file": "Bracket_8-16-X_JP.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 0,
+        "bracket_size": 32,
+        "bracket_orientation": "vertical",
+        "n_slots": 24,
+        "lookup_order": 56,
+        "legacy_code": "z",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR0": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5677165354,
+                        14.2677165354,
+                        12.9677165354,
+                        12.6677165354,
+                        11.3677165354,
+                        11.0677165354,
+                        9.7677165354,
+                        9.4677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 4,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
+            },
+            "LR0": {
+                "num_slots": 16,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        7.2677165354,
+                        6.9677165354,
+                        6.4677165354,
+                        6.1677165354,
+                        5.6677165354,
+                        5.3677165354,
+                        4.8677165354,
+                        4.5677165354,
+                        4.0677165354,
+                        3.7677165354,
+                        3.2677165354,
+                        2.9677165354,
+                        2.4677165354,
+                        2.1677165354,
+                        1.6677165354,
+                        1.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.05,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 4,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
+            },
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5677165354,
+                        14.2677165354,
+                        12.9677165354,
+                        12.6677165354,
+                        11.3677165354,
+                        11.0677165354,
+                        9.7677165354,
+                        9.4677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": {
+                    "value": 2.096456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        7.2677165354,
+                        6.9677165354,
+                        6.4677165354,
+                        6.1677165354,
+                        5.6677165354,
+                        5.3677165354,
+                        4.8677165354,
+                        4.5677165354,
+                        4.0677165354,
+                        3.7677165354,
+                        3.2677165354,
+                        2.9677165354,
+                        2.4677165354,
+                        2.1677165354,
+                        1.6677165354,
+                        1.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
         }
     },
     {
@@ -1313,7 +1609,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1322,7 +1618,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1348,7 +1644,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1357,7 +1653,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1383,7 +1679,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1392,7 +1688,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1414,7 +1710,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1423,7 +1719,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1445,7 +1741,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1454,7 +1750,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1476,7 +1772,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1485,7 +1781,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1505,7 +1801,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1514,7 +1810,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1534,7 +1830,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1543,7 +1839,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1675,7 +1971,8 @@
                 "backgray": null,
                 "seeds": [
                     1
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -1701,7 +1998,8 @@
                 "backgray": null,
                 "seeds": [
                     2
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -1727,7 +2025,479 @@
                 "backgray": null,
                 "seeds": [
                     3
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
+        "key": "12player-3adv-ms-jp",
+        "template_file": "Bracket_12-X-3_JP.pdf",
+        "n_entrants": 12,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 12,
+        "bracket_orientation": "vertical",
+        "n_slots": 12,
+        "lookup_order": 93,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.7677165354,
+                        13.3677165354,
+                        11.7677165354,
+                        11.3677165354,
+                        9.7677165354,
+                        9.3677165354,
+                        7.7677165354,
+                        7.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.2677165354,
+                        13.8677165354,
+                        12.2677165354,
+                        11.8677165354,
+                        10.2677165354,
+                        9.8677165354,
+                        8.2677165354,
+                        7.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.0677165354,
+                        4.6677165354,
+                        4.0677165354,
+                        3.6677165354,
+                        3.0677165354,
+                        2.6677165354,
+                        2.0677165354,
+                        1.6677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.2677165354,
+                        12.8677165354,
+                        9.2677165354,
+                        8.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.5677165354,
+                        4.1677165354,
+                        2.5677165354,
+                        2.1677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.7677165354,
+                        4.3677165354,
+                        2.7677165354,
+                        2.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR4": {
+                "num_slots": 2,
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        11.2677165354,
+                        10.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR4": {
+                "num_slots": 2,
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        3.7677165354,
+                        3.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 10.4477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 9.2477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 2.9477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -1789,7 +2559,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1798,7 +2568,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1824,7 +2594,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1833,7 +2603,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1859,7 +2629,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1868,7 +2638,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1894,7 +2664,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1903,7 +2673,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1925,7 +2695,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1934,7 +2704,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1956,7 +2726,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1965,7 +2735,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -1987,7 +2757,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -1996,7 +2766,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -2016,7 +2786,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -2025,7 +2795,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -2045,7 +2815,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -2054,7 +2824,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -2186,7 +2956,8 @@
                 "backgray": null,
                 "seeds": [
                     1
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -2212,7 +2983,8 @@
                 "backgray": null,
                 "seeds": [
                     2
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -2238,7 +3010,522 @@
                 "backgray": null,
                 "seeds": [
                     3
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
+        "key": "16player-3adv-ms-jp",
+        "template_file": "Bracket_16-X-3_JP.pdf",
+        "n_entrants": 16,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 16,
+        "bracket_orientation": "vertical",
+        "n_slots": 16,
+        "lookup_order": 96,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.7677165354,
+                        14.3677165354,
+                        13.7677165354,
+                        13.3677165354,
+                        12.7677165354,
+                        12.3677165354,
+                        11.7677165354,
+                        11.3677165354,
+                        10.7677165354,
+                        10.3677165354,
+                        9.7677165354,
+                        9.3677165354,
+                        8.7677165354,
+                        8.3677165354,
+                        7.7677165354,
+                        7.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.2677165354,
+                        13.8677165354,
+                        12.2677165354,
+                        11.8677165354,
+                        10.2677165354,
+                        9.8677165354,
+                        8.2677165354,
+                        7.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.0677165354,
+                        4.6677165354,
+                        4.0677165354,
+                        3.6677165354,
+                        3.0677165354,
+                        2.6677165354,
+                        2.0677165354,
+                        1.6677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.2677165354,
+                        4.8677165354,
+                        4.2677165354,
+                        3.8677165354,
+                        3.2677165354,
+                        2.8677165354,
+                        2.2677165354,
+                        1.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.2677165354,
+                        12.8677165354,
+                        9.2677165354,
+                        8.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.7677165354,
+                        4.3677165354,
+                        2.7677165354,
+                        2.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR4": {
+                "num_slots": 4,
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.9677165354,
+                        4.5677165354,
+                        2.9677165354,
+                        2.5677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR4": {
+                "num_slots": 2,
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        11.2677165354,
+                        10.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR5": {
+                "num_slots": 2,
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        3.9677165354,
+                        3.5677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 10.4477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 9.2477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 9.346456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 3.1477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -3228,7 +4515,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3237,7 +4524,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3263,7 +4550,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3272,7 +4559,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3298,7 +4585,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3307,7 +4594,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3329,7 +4616,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3338,7 +4625,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3360,7 +4647,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3369,7 +4656,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3391,7 +4678,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3400,7 +4687,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3532,7 +4819,8 @@
                 "backgray": null,
                 "seeds": [
                     1
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -3558,7 +4846,8 @@
                 "backgray": null,
                 "seeds": [
                     2
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -3584,7 +4873,8 @@
                 "backgray": null,
                 "seeds": [
                     3
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -3610,7 +4900,448 @@
                 "backgray": null,
                 "seeds": [
                     4
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
+        "key": "12player-4adv-ms-jp",
+        "template_file": "Bracket_12-X-4_JP.pdf",
+        "n_entrants": 12,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 12,
+        "bracket_orientation": "vertical",
+        "n_slots": 12,
+        "lookup_order": 133,
+        "legacy_code": "x",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.7677165354,
+                        13.3677165354,
+                        11.7677165354,
+                        11.3677165354,
+                        9.7677165354,
+                        9.3677165354,
+                        7.7677165354,
+                        7.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.2677165354,
+                        13.8677165354,
+                        12.2677165354,
+                        11.8677165354,
+                        10.2677165354,
+                        9.8677165354,
+                        8.2677165354,
+                        7.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.0677165354,
+                        4.6677165354,
+                        4.0677165354,
+                        3.6677165354,
+                        3.0677165354,
+                        2.6677165354,
+                        2.0677165354,
+                        1.6677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.2677165354,
+                        12.8677165354,
+                        9.2677165354,
+                        8.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.5677165354,
+                        4.1677165354,
+                        2.5677165354,
+                        2.1677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.7677165354,
+                        4.3677165354,
+                        2.7677165354,
+                        2.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 12.4477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 8.4477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 1.9477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 3.9477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -3672,7 +5403,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3681,7 +5412,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3707,7 +5438,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3716,7 +5447,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3742,7 +5473,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3751,7 +5482,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3777,7 +5508,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3786,7 +5517,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3808,7 +5539,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3817,7 +5548,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3839,7 +5570,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3848,7 +5579,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -3870,7 +5601,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -3879,7 +5610,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -4011,7 +5742,8 @@
                 "backgray": null,
                 "seeds": [
                     1
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -4037,7 +5769,8 @@
                 "backgray": null,
                 "seeds": [
                     2
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -4063,7 +5796,8 @@
                 "backgray": null,
                 "seeds": [
                     3
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -4089,7 +5823,491 @@
                 "backgray": null,
                 "seeds": [
                     4
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
+        "key": "16player-4adv-ms-jp",
+        "template_file": "Bracket_16-X-4_JP.pdf",
+        "n_entrants": 16,
+        "format": "double-elimination",
+        "n_advance": 4,
+        "bracket_size": 16,
+        "bracket_orientation": "vertical",
+        "n_slots": 16,
+        "lookup_order": 136,
+        "legacy_code": "x",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 16,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.7677165354,
+                        14.3677165354,
+                        13.7677165354,
+                        13.3677165354,
+                        12.7677165354,
+                        12.3677165354,
+                        11.7677165354,
+                        11.3677165354,
+                        10.7677165354,
+                        10.3677165354,
+                        9.7677165354,
+                        9.3677165354,
+                        8.7677165354,
+                        8.3677165354,
+                        7.7677165354,
+                        7.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.2677165354,
+                        13.8677165354,
+                        12.2677165354,
+                        11.8677165354,
+                        10.2677165354,
+                        9.8677165354,
+                        8.2677165354,
+                        7.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.0677165354,
+                        4.6677165354,
+                        4.0677165354,
+                        3.6677165354,
+                        3.0677165354,
+                        2.6677165354,
+                        2.0677165354,
+                        1.6677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.2677165354,
+                        4.8677165354,
+                        4.2677165354,
+                        3.8677165354,
+                        3.2677165354,
+                        2.8677165354,
+                        2.2677165354,
+                        1.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.2677165354,
+                        12.8677165354,
+                        9.2677165354,
+                        8.8677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.246456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.7677165354,
+                        4.3677165354,
+                        2.7677165354,
+                        2.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR4": {
+                "num_slots": 4,
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.9677165354,
+                        4.5677165354,
+                        2.9677165354,
+                        2.5677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 12.4477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 8.4477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 2.1477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 4.1477165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -5954,10 +8172,12 @@
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 12
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
             },
             "LR0": {
-                "num_slots": 16,
+                "num_slots": 8,
                 "x": {
                     "value": 0.5,
                     "unit": "inch"
@@ -5989,7 +8209,9 @@
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 12
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
             },
             "WR1": {
                 "num_slots": 8,
@@ -6011,7 +8233,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -6020,14 +8242,14 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
                 "fontsize": 12
             },
             "LR1": {
-                "num_slots": 16,
+                "num_slots": 8,
                 "x": {
                     "value": 2.2,
                     "unit": "inch"
@@ -6046,7 +8268,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -6055,7 +8277,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -6187,7 +8409,8 @@
                 "backgray": null,
                 "seeds": [
                     1
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6213,7 +8436,8 @@
                 "backgray": null,
                 "seeds": [
                     2
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6239,7 +8463,8 @@
                 "backgray": null,
                 "seeds": [
                     3
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6265,7 +8490,8 @@
                 "backgray": null,
                 "seeds": [
                     4
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6291,7 +8517,8 @@
                 "backgray": null,
                 "seeds": [
                     5
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6317,7 +8544,449 @@
                 "backgray": null,
                 "seeds": [
                     6
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
+        "key": "8w8l-6adv-ms-jp",
+        "template_file": "Bracket_8-8-6_JP.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 16,
+        "bracket_orientation": "vertical",
+        "n_slots": 16,
+        "lookup_order": 193,
+        "legacy_code": "b",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR0": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5677165354,
+                        14.2677165354,
+                        12.9677165354,
+                        12.6677165354,
+                        11.3677165354,
+                        11.0677165354,
+                        9.7677165354,
+                        9.4677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 4,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
+            },
+            "LR0": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.8677165354,
+                        6.5677165354,
+                        5.2677165354,
+                        4.9677165354,
+                        3.6677165354,
+                        3.3677165354,
+                        2.0677165354,
+                        1.7677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 4,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
+            },
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5677165354,
+                        14.2677165354,
+                        12.9677165354,
+                        12.6677165354,
+                        11.3677165354,
+                        11.0677165354,
+                        9.7677165354,
+                        9.4677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.8677165354,
+                        6.5677165354,
+                        5.2677165354,
+                        4.9677165354,
+                        3.6677165354,
+                        3.3677165354,
+                        2.0677165354,
+                        1.7677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 12.9977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 9.7977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 8.5977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 11.7977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 2.2977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.646456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 5.4977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    6
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -6385,7 +9054,9 @@
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 12
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
             },
             "LR0": {
                 "num_slots": 16,
@@ -6428,7 +9099,9 @@
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 12
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
             },
             "WR1": {
                 "num_slots": 8,
@@ -6450,7 +9123,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -6459,7 +9132,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -6493,7 +9166,7 @@
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.2,
+                    "value": 1.5,
                     "unit": "inch"
                 },
                 "height": {
@@ -6502,7 +9175,7 @@
                 },
                 "margin": {
                     "left": 2,
-                    "right": 1,
+                    "right": 22.6,
                     "top": 1,
                     "bottom": 1
                 },
@@ -6634,7 +9307,8 @@
                 "backgray": null,
                 "seeds": [
                     1
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6660,7 +9334,8 @@
                 "backgray": null,
                 "seeds": [
                     2
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6686,7 +9361,8 @@
                 "backgray": null,
                 "seeds": [
                     3
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6712,7 +9388,8 @@
                 "backgray": null,
                 "seeds": [
                     4
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6738,7 +9415,8 @@
                 "backgray": null,
                 "seeds": [
                     5
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
             },
             {
                 "x": {
@@ -6764,7 +9442,465 @@
                 "backgray": null,
                 "seeds": [
                     6
-                ]
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
+        "key": "8w16l-6adv-ms-jp",
+        "template_file": "Bracket_8-16-6_JP.pdf",
+        "n_in_winners": 8,
+        "n_in_losers": 16,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 32,
+        "bracket_orientation": "vertical",
+        "n_slots": 24,
+        "lookup_order": 196,
+        "legacy_code": "b",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR0": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5677165354,
+                        14.2677165354,
+                        12.9677165354,
+                        12.6677165354,
+                        11.3677165354,
+                        11.0677165354,
+                        9.7677165354,
+                        9.4677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 4,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
+            },
+            "LR0": {
+                "num_slots": 16,
+                "x": {
+                    "value": 0.846456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        7.2677165354,
+                        6.9677165354,
+                        6.4677165354,
+                        6.1677165354,
+                        5.6677165354,
+                        5.3677165354,
+                        4.8677165354,
+                        4.5677165354,
+                        4.0677165354,
+                        3.7677165354,
+                        3.2677165354,
+                        2.9677165354,
+                        2.4677165354,
+                        2.1677165354,
+                        1.6677165354,
+                        1.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.05,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 4,
+                    "right": 1,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12,
+                "alignment": "center",
+                "textgray": 0.3
+            },
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.546456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5677165354,
+                        14.2677165354,
+                        12.9677165354,
+                        12.6677165354,
+                        11.3677165354,
+                        11.0677165354,
+                        9.7677165354,
+                        9.4677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            },
+            "LR1": {
+                "num_slots": 16,
+                "x": {
+                    "value": 2.096456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        7.2677165354,
+                        6.9677165354,
+                        6.4677165354,
+                        6.1677165354,
+                        5.6677165354,
+                        5.3677165354,
+                        4.8677165354,
+                        4.5677165354,
+                        4.0677165354,
+                        3.7677165354,
+                        3.2677165354,
+                        2.9677165354,
+                        2.4677165354,
+                        2.1677165354,
+                        1.6677165354,
+                        1.3677165354
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.2,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 12
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.1,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.900433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "pool": {
+            "x": {
+                "value": 8.8,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.540433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.3,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "date": {
+            "x": {
+                "value": 8.4,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.175433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.7,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "judge": {
+            "x": {
+                "value": 8.65,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.800433071,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.45,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 16,
+            "alignment": "center"
+        },
+        "notes": {
+            "x": {
+                "value": 0.846456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": ""
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 12.9977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 9.7977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 8.5977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 5.946456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 11.7977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 8.146456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 5.0977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 8.146456693,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 2.6977165354,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    6
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },

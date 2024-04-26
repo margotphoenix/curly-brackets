@@ -62,7 +62,7 @@ class Template:
         self.page = Page(**page)
 
         self.elements = ['names']
-        names = kwargs.pop('names')
+        names = kwargs.get('names')
         if isinstance(names, dict):
             self.names = {
                 k: self.build_element('slotlist', **names[k])
@@ -75,8 +75,8 @@ class Template:
             ]
 
         for e in elements:
-            # if e in ['names']:
-            #     continue
+            if e in ['names']:
+                continue
             element_props = kwargs.pop(e)
             if isinstance(element_props, dict):
                 element = self.build_element(e, **element_props)
@@ -92,16 +92,16 @@ class Template:
     def build_element(element_name, **element_props):
         if element_name in ['slotlist']:
             base_class = SlotListElement
-            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 60}
+            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 70}
         elif element_name in ['textlist']:
             base_class = TextListElement
-            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 60}
+            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 70}
         elif element_name in ['event', 'label']:
             base_class = TextFieldElement
-            element_defaults = {'fontname': BASE_FONT, 'min_hscale': 90}
+            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 90}
         elif element_name in ['pool', 'date', 'total']:
             base_class = TextFieldElement
-            element_defaults = {'fontname': BASE_FONT,
+            element_defaults = {'fontname': DEFAULT_FONT,
                                 'alignment': 'center',
                                 'min_hscale': 90}
         elif element_name in ['judge']:
@@ -112,7 +112,7 @@ class Template:
             #     base_class = ItemListElement
             # else:
             base_class = ParagraphElement
-            element_defaults = {'fontname': BASE_FONT, 'valign': 'MIDDLE'}
+            element_defaults = {'fontname': DEFAULT_FONT, 'valign': 'MIDDLE'}
         elif element_name in ['notes']:
             base_class = ItemListElement
             element_defaults = {'fontname': DEFAULT_FONT, 'bullet': ENDA}
@@ -129,7 +129,7 @@ class Template:
         self.overlay_packet = io.BytesIO()
         self.canvas = Canvas(self.overlay_packet,
                              pagesize=self.page.size,
-                             initialFontName=DEFAULT_FONT)
+                             initialFontName=BASE_FONT)
 
     def draw_names(self, names, **kwargs):
         if isinstance(self.names, dict): 
@@ -171,11 +171,14 @@ class Template:
                         prog_text.append(text)
                 prog_text = '<br/>'.join(prog_text)
             else:
-                if len(element.seeds) > 1:
-                    fmt_str = 'Players advance to'.replace(' ', NBSP)
+                if hasattr(element, 'advance_text'):
+                    fmt_str = element.advance_text.format(format_string)
+                elif len(element.seeds) > 1:
+                    fmt_str = ('Players advance to'.replace(' ', NBSP) 
+                               + ' ' + format_string)
                 else:
-                    fmt_str = 'Advances to'.replace(' ', NBSP)
-                fmt_str += ' ' + format_string
+                    fmt_str = ('Advances to'.replace(' ', NBSP) 
+                               + ' ' + format_string)
                 prog = collapse_kwargs([progressions[s] for s in element.seeds])
                 prog_text = ProgressionFormatter().format(fmt_str, **prog)
             element.draw(self.canvas, prog_text, **kwargs)
@@ -258,7 +261,8 @@ class TemplateLookup:
         'paper_size',
         'paper_orientation',
         'source',
-        'elements'
+        'elements',
+        'locale'
     ]
     config = json.load(open_text(templates, 'config.json'))
 

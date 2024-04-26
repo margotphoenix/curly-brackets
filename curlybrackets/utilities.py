@@ -119,7 +119,7 @@ def sequential_to_seeds(seq_list, trim_list=True, trim_match=None):
 
 
 def seeds_to_sequential(seed_list, size=None, fill=''):
-    if size is None:
+    if size is None or size < len(seed_list):
         rmap = reverse_seed_map(len(seed_list))
     else:
         rmap = reverse_seed_map(size)
