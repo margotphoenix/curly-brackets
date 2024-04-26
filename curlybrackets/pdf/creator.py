@@ -1,7 +1,7 @@
 
 from math import log2, ceil
 
-from PyPDF2 import PdfFileWriter
+from PyPDF2 import PdfWriter
 
 from curlybrackets.pdf.brackets import TemplateLookup
 from curlybrackets.pdf.utilities import expand_kwargs, collapse_kwargs
@@ -104,12 +104,12 @@ def print_bracket(filename, names, format, **kwargs):
     for tf in template_brackets:
         template_brackets[tf].save()
 
-    document = PdfFileWriter()
+    document = PdfWriter()
     template_pages = {tf: template_brackets[tf].merge_pages()
                       for tf in template_brackets}
     for tf in template_files:
         merged_page = next(template_pages[tf])
-        document.addPage(merged_page)
+        document.add_page(merged_page)
 
     with open(filename, 'wb') as f:
         document.write(f)

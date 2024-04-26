@@ -8828,11 +8828,11 @@
         "progressions": [
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 12.9977165354,
+                    "value": 13.4177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -8845,7 +8845,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -8855,11 +8855,11 @@
             },
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 9.7977165354,
+                    "value": 10.2177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -8872,7 +8872,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -8882,11 +8882,11 @@
             },
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 8.5977165354,
+                    "value": 9.0177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -8899,7 +8899,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -8909,11 +8909,11 @@
             },
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 11.7977165354,
+                    "value": 12.2177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -8926,7 +8926,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -9742,11 +9742,11 @@
         "progressions": [
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 12.9977165354,
+                    "value": 13.4177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -9759,7 +9759,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -9769,11 +9769,11 @@
             },
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 9.7977165354,
+                    "value": 10.2177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -9786,7 +9786,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -9796,11 +9796,11 @@
             },
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 8.5977165354,
+                    "value": 9.0177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -9813,7 +9813,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [
@@ -9823,11 +9823,11 @@
             },
             {
                 "x": {
-                    "value": 5.946456693,
+                    "value": 7.546456693,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 11.7977165354,
+                    "value": 12.2177165354,
                     "unit": "inch"
                 },
                 "width": {
@@ -9840,7 +9840,7 @@
                 },
                 "alignment": 0,
                 "fontsize": 14,
-                "valign": "TOP",
+                "valign": "MIDDLE",
                 "type": "de",
                 "backgray": null,
                 "seeds": [

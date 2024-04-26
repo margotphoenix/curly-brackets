@@ -7,7 +7,7 @@ import warnings
 
 from reportlab.pdfgen.canvas import Canvas
 
-from PyPDF2 import PdfFileReader
+from PyPDF2 import PdfReader
 
 from curlybrackets.pdf import templates
 from curlybrackets.pdf.elements import (TextFieldElement,
@@ -236,10 +236,10 @@ class Template:
 
     def merge_pages(self):
         template_packet = open_binary(templates, self.template_file)
-        overlay = PdfFileReader(self.overlay_packet)
-        for n in range(overlay.numPages):
-            bracket = PdfFileReader(template_packet).getPage(0)
-            bracket.mergePage(overlay.getPage(n))
+        overlay = PdfReader(self.overlay_packet)
+        for n in range(len(overlay.pages)):
+            bracket = PdfReader(template_packet).pages[0]
+            bracket.merge_page(overlay.pages[n])
             yield bracket
 
 
