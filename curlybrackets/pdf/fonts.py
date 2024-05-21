@@ -13,7 +13,9 @@ try:
                        normal='UnGraphicRegular', 
                        bold='UnGraphicBold')
 except TTFError:
-    pass 
+    DEFAULT_FONT = BASE_FONT
+else:
+    DEFAULT_FONT = 'UnGraphic'
 
 try:
     registerFont(TTFont('PretendardJP-Regular', 'PretendardJP-Regular.ttf'))
@@ -22,6 +24,4 @@ try:
                        normal='PretendardJP-Regular', 
                        bold='PretendardJP-Bold')
 except TTFError:
-    DEFAULT_FONT = BASE_FONT
-else:
-    DEFAULT_FONT = 'PretendardJP'
+    pass

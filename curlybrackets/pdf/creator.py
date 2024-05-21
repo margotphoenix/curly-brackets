@@ -1,7 +1,7 @@
 
 from math import log2, ceil
 
-from PyPDF2 import PdfFileWriter
+from PyPDF2 import PdfWriter
 
 from curlybrackets.pdf.brackets import TemplateLookup
 from curlybrackets.pdf.utilities import expand_kwargs, collapse_kwargs
@@ -20,39 +20,43 @@ def get_format(format):
         raise TypeError(f'Invalid tournament format: {format}')
 
 
-def _auto_advance_entrants(entrants, names, format):
+def _auto_advance_entrants(entrants, names, 
+                           bracket_size, format):
     rounds = []
-    for entrs, nms in zip(entrants, names):
-        bsize = len(nms)
-        ts = 2**ceil(log2(len(entrs)))
-        tsh = 2**ceil(log2(len(entrs)/1.5))
+    for entrs, nms, bsz in zip(entrants, names, bracket_size):
+        if bsz is None:
+            ts = 2**ceil(log2(len(entrs)))
+            tsh = 2**ceil(log2(len(entrs)/1.5))
+        else:
+            ts = 2**ceil(log2(bsz))
+            tsh = 2**ceil(log2(bsz/1.5))
         if tsh == ts: 
             rnds = {
                 'WR1': nms,
                 'WR2': seeds_to_sequential(
                     entrs[:(len(nms)-len(entrs))],
-                    size=bsize//2),
+                    size=len(nms)//2),
                 }
             rnds['LR1'] = [
                 nms[2*i+1] if rnds['WR2'][i] == nms[2*i] else ''
-                for i in range(bsize//2)]
+                for i in range(len(nms)//2)]
             rnds['LR2'] = [
                 '' if i % 2 == 0 else rnds['LR1'][i]
-                for i in range(bsize//2)]
+                for i in range(len(nms)//2)]
         else:
             rnds = {
                 'WR1': [
                     nms[i] for i in range(len(nms)) if (i//2)%2 == 1],
                 'WR2': seeds_to_sequential(
                     entrs[:(len(nms)-len(entrs))],
-                    size=bsize//2)
+                    size=len(nms)//2)
             }
             rnds['LR1'] = [
                 nms[2*i+1] if rnds['WR2'][i] == nms[2*i] else ''
-                for i in range(bsize//2)]
-            rnds['LR2'] = [
+                for i in range(len(nms)//2)]
+            rnds['LR1'] = [
                 '' if i % 2 == 0 else rnds['LR1'][i]
-                for i in range(bsize//2)]
+                for i in range(len(nms)//2)]
 
         rounds.append(rnds)
     return rounds
@@ -87,6 +91,7 @@ def print_bracket(filename, names, format, **kwargs):
                 nent = len(nms)
             tf = TemplateLookup.search(format=format,
                                        n_entrants=nent, **vkwargs)
+        # print(tf)
 
         template_files.append(tf)
         if tf not in template_brackets:
@@ -99,12 +104,12 @@ def print_bracket(filename, names, format, **kwargs):
     for tf in template_brackets:
         template_brackets[tf].save()
 
-    document = PdfFileWriter()
+    document = PdfWriter()
     template_pages = {tf: template_brackets[tf].merge_pages()
                       for tf in template_brackets}
     for tf in template_files:
         merged_page = next(template_pages[tf])
-        document.addPage(merged_page)
+        document.add_page(merged_page)
 
     with open(filename, 'wb') as f:
         document.write(f)
@@ -123,6 +128,8 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
     """
     if not isinstance(entrants[0], (tuple, list)):
         entrants = [entrants]
+    if not isinstance(bracket_size, (tuple, list)):
+        bracket_size = [bracket_size] * len(entrants)
     if not byes:
         byes = 'none'
     format = get_format(format)
@@ -133,30 +140,30 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
         if byes in ['none', 'block']:
             bye_fill = (None if byes == 'block' else '')
             names = [seeds_to_sequential(
-                entrs, size=bracket_size, fill=bye_fill
-                ) for entrs in entrants]
+                entrs, size=bsize, fill=bye_fill
+                ) for entrs, bsize in zip(entrants, bracket_size)]
             names_textgray = entrants_textgray
 
             if auto_advance:
                 names = _auto_advance_entrants(
-                    entrants, names, format
+                    entrants, names, bracket_size, format
                 )
         else:
             bye_fill = ('Bye {:d}' if byes == 'number' else 'Bye')
             names = []
             names_textgray = []
-            for entrs in entrants:
+            for entrs, bsize in zip(entrants, bracket_size):
                 names.append(seeds_to_sequential(
-                    entrs, size=bracket_size, fill=bye_fill
+                    entrs, size=bsize, fill=bye_fill
                 ))
                 names_textgray.append(seeds_to_sequential(
                     [entrants_textgray for _ in entrs],
-                    size=bracket_size, fill=byes_textgray
+                    size=bsize, fill=byes_textgray
                 ))
 
             if auto_advance:
                 names = _auto_advance_entrants(
-                    entrants, names, format
+                    entrants, names, bracket_size, format
                 )
                 names_textgray = {'WR1': names_textgray, 
                                   'WR2': entrants_textgray}  # This won't work for 24

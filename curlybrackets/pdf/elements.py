@@ -69,7 +69,7 @@ class Element:
 
     @classmethod
     def frame_args(cls):
-        return (['unit'] + cls.required_args + list(cls.optional_args))
+        return (cls.required_args + list(cls.optional_args))
 
     @classmethod
     def filter_kwargs(cls, dct=None, **kwargs):
