@@ -117,7 +117,7 @@ def print_bracket(filename, names, format, **kwargs):
 
 def print_initial_bracket(filename, entrants, format='double-elimination',
                           n_advance=0, name_order='seed', bracket_size=None,
-                          entrants_textgray=0, byes=None, byes_textgray=0.85,
+                          entrants_textgray=0, byes=None, byes_gray=0.5,
                           auto_advance=False, **kwargs):
     """ Make bracket pdf where all players start in winners
 
@@ -148,6 +148,8 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
                 names = _auto_advance_entrants(
                     entrants, names, bracket_size, format
                 )
+
+            kwargs['names_backgray'] = byes_gray
         else:
             bye_fill = ('Bye {:d}' if byes == 'number' else 'Bye')
             names = []
@@ -158,7 +160,7 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
                 ))
                 names_textgray.append(seeds_to_sequential(
                     [entrants_textgray for _ in entrs],
-                    size=bsize, fill=byes_textgray
+                    size=bsize, fill=byes_gray
                 ))
 
             if auto_advance:
@@ -168,11 +170,14 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
                 names_textgray = {'WR1': names_textgray, 
                                   'WR2': entrants_textgray}  # This won't work for 24
                 if format[0] == 'd':
-                    names_textgray.update({'LR1': byes_textgray, 
-                                           'LR2': byes_textgray})
+                    names_textgray.update({'LR1': byes_gray, 
+                                           'LR2': byes_gray})
+            
+            kwargs['names_textgray'] = names_textgray
     else:
         names = entrants
-        names_textgray = entrants_textgray
+        if 'names_textgray' not in kwargs:
+            kwargs['names_textgray'] = entrants_textgray
 
     if bracket_size:
         kwargs['bracket_size'] = bracket_size
