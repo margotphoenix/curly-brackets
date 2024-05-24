@@ -10248,19 +10248,19 @@
             },
             {
                 "x": {
-                    "value": 9.25,
+                    "value": 7.8,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 4.595,
+                    "value": 4.655,
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.4,
+                    "value": 2.0,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 1.0,
+                    "value": 0.7,
                     "unit": "inch"
                 },
                 "alignment": 0,
@@ -10275,19 +10275,19 @@
             },
             {
                 "x": {
-                    "value": 9.25,
+                    "value": 7.8,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 2.195,
+                    "value": 2.255,
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.4,
+                    "value": 2.0,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 1.0,
+                    "value": 0.7,
                     "unit": "inch"
                 },
                 "alignment": 0,
