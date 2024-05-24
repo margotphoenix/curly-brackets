@@ -128,6 +128,8 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
     """
     if not isinstance(entrants[0], (tuple, list)):
         entrants = [entrants]
+    if bracket_size is not None:
+        kwargs['bracket_size'] = bracket_size
     if not isinstance(bracket_size, (tuple, list)):
         bracket_size = [bracket_size] * len(entrants)
     if not byes:
@@ -179,8 +181,6 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
         if 'names_textgray' not in kwargs:
             kwargs['names_textgray'] = entrants_textgray
 
-    if bracket_size:
-        kwargs['bracket_size'] = bracket_size
     print_bracket(filename, names, format, n_advance=n_advance,
                   total=total, names_textgray=names_textgray, **kwargs)
 

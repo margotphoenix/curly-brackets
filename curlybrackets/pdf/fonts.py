@@ -7,11 +7,11 @@ from reportlab.pdfbase.ttfonts import TTFont, TTFError
 BASE_FONT = 'Helvetica'
 
 try:
-    registerFont(TTFont('UnGraphicRegular', 'UnGraphic.ttf'))
-    registerFont(TTFont('UnGraphicBold', 'UnGraphicBold.ttf'))
+    registerFont(TTFont('UnGraphic', 'UnGraphic.ttf'))
+    registerFont(TTFont('UnGraphic-Bold', 'UnGraphicBold.ttf'))
     registerFontFamily('UnGraphic', 
-                       normal='UnGraphicRegular', 
-                       bold='UnGraphicBold')
+                       normal='UnGraphic', 
+                       bold='UnGraphic-Bold')
 except TTFError:
     DEFAULT_FONT = BASE_FONT
 else:
