@@ -117,7 +117,8 @@ def print_bracket(filename, names, format, **kwargs):
 
 def print_initial_bracket(filename, entrants, format='double-elimination',
                           n_advance=0, name_order='seed', bracket_size=None,
-                          entrants_textgray=0, byes=None, byes_gray=0.5,
+                          entrants_textgray=0, byes=None, 
+                          byes_gray=0.5, byes_alpha=None,
                           auto_advance=False, **kwargs):
     """ Make bracket pdf where all players start in winners
 
@@ -152,6 +153,7 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
                 )
 
             kwargs['names_backgray'] = byes_gray
+            kwargs['names_backalpha'] = byes_alpha
         else:
             bye_fill = ('Bye {:d}' if byes == 'number' else 'Bye')
             names = []
