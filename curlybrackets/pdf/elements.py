@@ -702,6 +702,7 @@ class ImageElement(RectElement):
     required_args = ['x', 'y', 'width', 'height']
     optional_args = {'backgray': 1,
                      'bordergray': None,
+                     'backalpha': None,
                      'borderwidth': 0}
 
     def _draw(self, canvas, image=None):
