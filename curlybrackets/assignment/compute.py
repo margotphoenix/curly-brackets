@@ -4,7 +4,7 @@ from functools import reduce, partial
 from math import factorial
 
 from pandas import Series, DataFrame, Index
-from numpy import array, unique, where, zeros, infty
+from numpy import array, unique, where, zeros, inf
 
 from . import utilities as u
 
@@ -68,12 +68,12 @@ def compute_schedule_minimum(sr, phases, wave_maps, keep_assigned=False, xchar=N
         block_sr_slope = (scm * ((block_sr_current+1).map(factorial) - block_sr_current.map(factorial)) 
                             + xcm * block_sr_external)
         # wave_sr_slope = {w: block_sr_slope[list(w)].sum() for w in waves_possible}
-        min_slope = infty
+        min_slope = inf
         for e in events_unassigned:
             e_slope = wmaps_ua[e].applymap(lambda w: block_sr_slope[list(w)].sum()).sum(axis=1)
             if e_slope.min() < min_slope:
                 min_slope = e_slope.min()
-                min_noptions = infty
+                min_noptions = inf
             if e_slope.min() == min_slope:
                 e_noptions = (e_slope == min_slope).sum()
                 if e_noptions < min_noptions:
