@@ -1,6 +1,6 @@
 import re
 import warnings
-from functools import reduce, partial
+from functools import partial
 from math import factorial
 
 from pandas import Series, DataFrame, Index
@@ -58,7 +58,8 @@ def compute_schedule_minimum(sr, phases, wave_maps, keep_assigned=False, xchar=N
     block_sr_current = Series(0, index=blocks_possible)
     if keep_assigned:
         phases_unassigned = phases_entered.loc[phases_entered == xchar].index.tolist()
-        block_sr_current = block_sr_current.add(u.count_blocks(phases_entered, xchar), fill_value=0)
+        block_sr_current = block_sr_current.add(u.count_blocks(phases_entered, xchar), 
+                                                fill_value=0).astype('int64')
     else:
         phases_unassigned = phases_entered.index.tolist()
     events_unassigned = list(set((_pull_event(p) for p in phases_unassigned)))
@@ -70,7 +71,7 @@ def compute_schedule_minimum(sr, phases, wave_maps, keep_assigned=False, xchar=N
         # wave_sr_slope = {w: block_sr_slope[list(w)].sum() for w in waves_possible}
         min_slope = inf
         for e in events_unassigned:
-            e_slope = wmaps_ua[e].applymap(lambda w: block_sr_slope[list(w)].sum()).sum(axis=1)
+            e_slope = wmaps_ua[e].map(lambda w: block_sr_slope[list(w)].sum()).sum(axis=1)
             if e_slope.min() < min_slope:
                 min_slope = e_slope.min()
                 min_noptions = inf
@@ -291,7 +292,9 @@ def compute_score_change(olddf, newdf, diffs, e, events, locations, pools, phase
 
     members = newdfc.groupby(e+'.Entry').groups
     mixs = [members[d] for d in diffs]
-    jxs = reduce(lambda a,b: a.append(b), mixs, Index([]))
+    jxs = mixs[0]
+    for mxs in mixs[1:]:
+        jxs = jxs.append(mxs)
 
     old_score = 0.0
     new_score = 0.0

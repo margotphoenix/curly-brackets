@@ -1,7 +1,7 @@
 import random
 from functools import reduce
 
-from pandas import Index, Series, DataFrame
+from pandas import Index, Series, DataFrame, concat
 from numpy import exp
 
 from . import compute as c
@@ -23,7 +23,7 @@ def _append_dummies(df, pk, events, locations, pools, xchar):
             dummy_cols = [pk, e+'.Entry', e+'.Weight', e+'.Value', e] + loc_cols
             dummy_ix = Index(range(df.index.max()+1, df.index.max()+ndums+1),
                              name=df.index.name)
-            df = df.append(DataFrame(dummy_df, index=dummy_ix, columns=dummy_cols), sort=False)
+            df = concat([df, DataFrame(dummy_df, index=dummy_ix, columns=dummy_cols)])
 
     return df[full_cols]
 

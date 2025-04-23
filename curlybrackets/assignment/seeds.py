@@ -421,7 +421,7 @@ def assign_seed_pools(df, pk, events, locations, pools, external=None,
         print(counter, curr_score, min_score, swaps_made['Seed'], swaps_made['Order'])
 
     # Merge back into df
-    sdf = sdf.append(udf, sort=False).sort_index()
+    sdf = concat([sdf, udf]).sort_index()
 
     # Return df AND current orders
     df = df.loc[rows, cols]

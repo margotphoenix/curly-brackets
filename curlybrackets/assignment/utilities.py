@@ -105,7 +105,7 @@ def get_phase_wave_maps(phase_maps, pools, events):
     wave_maps = {}
     for e in events:
         if e in phase_maps:
-            wmap = phase_maps[e].fillna('').applymap(get_pool_wave)
+            wmap = phase_maps[e].fillna('').map(get_pool_wave)
         else:
             wmap = DataFrame({e: pools[e]})
             wmap[e+'..1'] = wmap[e].fillna('').map(get_pool_wave)
@@ -136,8 +136,8 @@ def maps_from_transitions(phase_transitions, pools=None):
         for i, pt in enumerate(phase_transitions[e]):
             pmap[e+'..'+str(i+2)] = pmap[e+'..'+str(i+1)].map(pt)
             ppools = sorted(pmap[e+'..'+str(i+2)].unique())
-            pmap = pmap.append(DataFrame({e: ppools, e+'..'+str(i+2): ppools}),
-                               ignore_index=True, sort=False)
+            pmap = concat([pmap, DataFrame({e: ppools, e+'..'+str(i+2): ppools})], 
+                          ignore_index=True, sort=False)
         phase_maps[e] = pmap.set_index(e)
 
     return phase_maps
