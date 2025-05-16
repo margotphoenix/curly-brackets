@@ -64,10 +64,8 @@ def find_suboptimal_schedules(df, events, pools=None, phase_transitions=None, xc
     wave_maps = u.get_phase_wave_maps(phase_maps, pools, events)
     phases = dfc.filter(regex=r'[.]{2}[1-9][0-9]*$').columns.tolist()
 
-    min_scores = dfc.apply(c.compute_schedule_minimum, axis=1, args=(phases, wave_maps),
-                           keep_assigned=False, xchar=xchar, **kwargs)
-    curr_scores = dfc.apply(c.compute_schedule_minimum, axis=1, args=(phases, wave_maps),
-                            keep_assigned=True, xchar=xchar, **kwargs)
+    min_scores = c.compute_schedule_minimums(dfc, phases, wave_maps, keep_assigned=False, xchar=xchar, **kwargs)
+    curr_scores = c.compute_schedule_minimums(dfc, phases, wave_maps, keep_assigned=True, xchar=xchar, **kwargs)
     so_ix = dfc.loc[curr_scores > min_scores].index.tolist()
     return so_ix
 

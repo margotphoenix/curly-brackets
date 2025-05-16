@@ -6,6 +6,8 @@ from math import factorial
 from pandas import Series, DataFrame, Index
 from numpy import array, unique, where, zeros, infty
 
+from ..utilities import get_pool_wave
+
 from . import utilities as u
 
 
@@ -46,8 +48,6 @@ def compute_schedule_minimum(sr, phases, wave_maps, keep_assigned=False, xchar=N
                              external=None, splitchar=None, wave_order=None, scm=2.0, xcm=8.0, **kwargs):
     splitter = list if splitchar is None else partial(str.split, sep=splitchar)
     ext_conflicts = splitter('' if external is None else sr[external])
-    if keep_assigned and xchar is None:
-        warnings.warn('xchar value should be set if keep_assigned is True')
 
     phases_entered = sr[phases].dropna()
     waves_possible = sorted(set(sum(
@@ -115,6 +115,34 @@ def compute_schedule_minimum(sr, phases, wave_maps, keep_assigned=False, xchar=N
     return min_contrib
 
 
+def compute_schedule_minimums(df, phases, wave_maps, keep_assigned=False, xchar=None, external=None, **kwargs):
+    if keep_assigned and xchar is None:
+        warnings.warn('xchar value should be set if keep_assigned is True')
+
+    schedule_scores = {}
+    schedscore_lkup = {}
+    for ix in df.index:
+        if keep_assigned:
+            ix_phases = df.loc[ix, phases].dropna().to_dict()
+            ix_profile = {p: 1 if ix_phases[p] == xchar else get_pool_wave(ix_phases[p])
+                          for p in ix_phases}
+        else:
+            ix_profile = {p: 1 for p in df.loc[ix, phases].dropna().index.tolist()}
+        if external is not None:
+            ix_profile.update({external: df.loc[ix, external]})
+        ix_profile = str(ix_profile)
+
+        if ix_profile in schedscore_lkup:
+            ix_score = schedscore_lkup[ix_profile]
+        else:
+            ix_score = compute_schedule_minimum(df.loc[ix], phases, wave_maps, 
+                                                keep_assigned=keep_assigned, 
+                                                xchar=xchar, external=external, **kwargs)
+            schedscore_lkup[ix_profile] = ix_score
+        schedule_scores[ix] = ix_score
+    return Series(schedule_scores)
+
+
 def compute_schedule_contribution(sr, phases, external=None,
                                   splitchar=None, scm=2.0, xcm=8.0, **kwargs):
     splitter = list if splitchar is None else partial(str.split, sep=splitchar)
@@ -166,8 +194,8 @@ def compute_minimum_score(df, events, locations, pools, xchar=None,
     min_score = 0.0
     if not skip_schedule:
         wave_maps = u.get_phase_wave_maps(phase_maps, pools, events)
-        schedule_scores = dfc.apply(compute_schedule_minimum, axis=1,
-                                    args=(phases, wave_maps), xchar=xchar, **kwargs) #keep_assigned = True?
+        schedule_scores = compute_schedule_minimums(dfc, phases, wave_maps, xchar=xchar, **kwargs)
+
         if schedule_weight_col is not None:
             schedule_scores *= dfc[schedule_weight_col]
         min_score += schedule_scores.sum()
@@ -225,8 +253,8 @@ def compute_current_score(df, events, locations, pools, phase_maps=None,
     if not skip_schedule:
         if min_schedule_calc:
             wave_maps = u.get_phase_wave_maps(phase_maps, pools, events)
-            schedule_scores = dfc.apply(compute_schedule_minimum, axis=1, args=(phases, wave_maps),
-                                        keep_assigned=True, xchar=xchar, **kwargs)
+            schedule_scores = compute_schedule_minimums(dfc, phases, wave_maps, 
+                                                        keep_assigned=True, xchar=xchar, **kwargs)
         else:
             schedule_scores = dfc.apply(compute_schedule_contribution, axis=1, args=(phases,), **kwargs)
         if schedule_weight_col is not None:
@@ -298,10 +326,10 @@ def compute_score_change(olddf, newdf, diffs, e, events, locations, pools, phase
     if not skip_schedule:
         if min_schedule_calc:
             wave_maps = u.get_phase_wave_maps(phase_maps, pools, events)
-            old_sched_scores = olddfc.loc[jxs].apply(compute_schedule_minimum, axis=1, args=(phases, wave_maps),
-                                                     keep_assigned=True, xchar=xchar, **kwargs)
-            new_sched_scores = newdfc.loc[jxs].apply(compute_schedule_minimum, axis=1, args=(phases, wave_maps),
-                                                     keep_assigned=True, xchar=xchar, **kwargs)
+            old_sched_scores = compute_schedule_minimums(olddfc.loc[jxs], phases, wave_maps, 
+                                                         keep_assigned=True, xchar=xchar, **kwargs)
+            new_sched_scores = compute_schedule_minimums(newdfc.loc[jxs], phases, wave_maps, 
+                                                         keep_assigned=True, xchar=xchar, **kwargs)
         else:
             old_sched_scores = olddfc.loc[jxs].apply(compute_schedule_contribution, axis=1, args=(phases,), **kwargs)
             new_sched_scores = newdfc.loc[jxs].apply(compute_schedule_contribution, axis=1, args=(phases,), **kwargs)
