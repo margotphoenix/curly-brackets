@@ -29,9 +29,9 @@ class PDFTextObject(_PDFTextObject):
             super().setHorizScale(hscale)
             self._hscale = hscale
 
-    def setFillGray(self, gray):
+    def setFillGray(self, gray, alpha=None):
         if not hasattr(self, '_gray') or gray != self._gray:
-            super().setFillGray(gray)
+            super().setFillGray(gray, alpha)
             self._gray = gray
 
     def setTextTransform(self, a, b, c, d, e, f):
@@ -134,7 +134,7 @@ class _TextFieldElement(Element):
 
         line = line.strip()
         if line.startswith('~~') and line.endswith('~~') and len(line) >= 5:
-            line = line[2:-3]
+            line = line[2:-2]
             strike = True
         else:
             strike = False
@@ -160,7 +160,7 @@ class _TextFieldElement(Element):
         txobj.setFont(fontname, fontsize)
         txobj.setHorizScale(hscale)
         txobj.setFillGray(self.textgray)
-        txobj._textOut(line)
+        txobj.textOut(line)
         txobj.setXPos(-shift)
 
         if strike:
@@ -274,12 +274,13 @@ class RectElement(Element):
     required_args = ['x', 'y', 'width', 'height']
     optional_args = {'backgray': 1,
                      'bordergray': None,
+                     'backalpha': None,
                      'borderwidth': 0}
 
     def fill(self, canvas):
         canvas.saveState()
         if self.backgray:
-            canvas.setFillGray(self.backgray)
+            canvas.setFillGray(self.backgray, alpha=self.backalpha)
             canvas.rect(self.x, self.y, self.width, self.height,
                         stroke=0, fill=1)
         if self.bordergray and self.borderwidth:
@@ -349,6 +350,8 @@ class _SlotElement(Element):
         avail_width = self.width - self.margin['left'] - self.margin['right']
         avail_height = self.height - self.margin['top'] - self.margin['bottom']
 
+        fontsize = min(fontsize, avail_height)
+
         line_width = canv.stringWidth(line, fontname, fontsize)
         hscale = 100 * avail_width / (line_width if line_width > 0 else 1e-5)
         while hscale < self.min_hscale:
@@ -372,12 +375,12 @@ class _SlotElement(Element):
             vshift = self.margin['bottom'] + 0.5 * (avail_height - fontsize)
         else:
             vshift = self.margin['bottom']
-        # vshift = 3
+        
         txobj.moveCursor(hshift, -vshift)
         txobj.setFont(fontname, fontsize)
         txobj.setHorizScale(hscale)
         txobj.setFillGray(self.textgray)
-        txobj._textOut(line)
+        txobj.textOut(line)
         txobj.moveCursor(-hshift, vshift)
 
         if strike:
@@ -411,9 +414,11 @@ class SlotElement(TextFieldElement):
                      'fontname': None,
                      'min_hscale': 100,
                      'alignment': 'left',
+                     'valign': 'middle',
                      'textgray': 0,
                      'margin': 0, 
                      'backgray': 0,
+                     'backalpha': None,
                      'bordergray': None,
                      'borderwidth': 0}
 
@@ -462,9 +467,11 @@ class SlotListElement(SlotElement):
                      'fontname': None,
                      'min_hscale': 100,
                      'alignment': 'left',
+                     'valign': 'middle',
                      'textgray': 0,
                      'margin': 0,
                      'backgray': 0.01,
+                     'backalpha': None,
                      'bordergray': None,
                      'borderwidth': 0}
 

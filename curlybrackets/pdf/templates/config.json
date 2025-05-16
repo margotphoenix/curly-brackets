@@ -1326,6 +1326,392 @@
         ]
     },
     {
+        "key": "8player-2adv-ms-jp",
+        "template_file": "Bracket_8-X-2_JP.pdf",
+        "n_entrants": 8,
+        "format": "double-elimination",
+        "n_advance": 2,
+        "bracket_size": 8,
+        "bracket_orientation": "vertical",
+        "n_slots": 8,
+        "lookup_order": 73,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.4495,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.83743,
+                        13.41143,
+                        11.70743,
+                        11.28143,
+                        9.57743,
+                        9.15143,
+                        7.44743,
+                        7.02143
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "WR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.26,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        12.77243,
+                        12.34643,
+                        8.51243,
+                        8.08643
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR1": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.4495,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        3.71993,
+                        3.29393,
+                        1.58993,
+                        1.16393
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.26,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        3.93293,
+                        3.50693,
+                        1.80293,
+                        1.37693
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "WR3": {
+                "num_slots": 2,
+                "x": {
+                    "value": 6.0705,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        10.64243,
+                        10.21643
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR3": {
+                "num_slots": 2,
+                "x": {
+                    "value": 6.0705,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        2.86793,
+                        2.44193
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR4": {
+                "num_slots": 2,
+                "x": {
+                    "value": 7.881,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        2.86793,
+                        2.44193
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.0,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.54543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.15,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "pool": {
+            "x": {
+                "value": 8.68,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.16543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.46,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "date": {
+            "x": {
+                "value": 8.31,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.77543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.84,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "judge": {
+            "x": {
+                "value": 8.55,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.38543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.6,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.881,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 9.80943,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 9.6915,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 1.72493,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.65,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.91,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            }
+        ]
+    },
+    {
         "key": "16player-2adv-ofl",
         "template_file": "16player_2out_Bracket.pdf",
         "n_entrants": 16,
@@ -1453,7 +1839,7 @@
         "bracket_size": 32,
         "bracket_orientation": "horizontal",
         "n_slots": 32,
-        "lookup_order": 90,
+        "lookup_order": 87,
         "legacy_code": "y",
         "paper_size": "US Tabloid",
         "paper_orientation": "landscape",
@@ -1556,6 +1942,686 @@
                 "seeds": [
                     2
                 ]
+            }
+        ]
+    },
+    {
+        "key": "4w4l-2adv-ms-jp",
+        "template_file": "Bracket_4-4-2_JP.pdf",
+        "n_in_winners": 4,
+        "n_in_losers": 4,
+        "format": "double-elimination",
+        "n_advance": 2,
+        "bracket_size": 8,
+        "bracket_orientation": "vertical",
+        "n_slots": 8,
+        "lookup_order": 89,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR0": {
+                "num_slots": 4,
+                "x": {
+                    "value": 0.62125,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.99008,
+                        13.67058,
+                        10.58208,
+                        10.26258
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 8.92,
+                    "right": 2,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR0": {
+                "num_slots": 4,
+                "x": {
+                    "value": 0.62125,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.570438,
+                        6.250938,
+                        3.162438,
+                        2.842938
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 8.92,
+                    "right": 2,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR1": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.43175,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.99008,
+                        13.67058,
+                        10.58208,
+                        10.26258
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.43175,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.570438,
+                        6.250938,
+                        3.162438,
+                        2.842938
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.0,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.54543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.15,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "pool": {
+            "x": {
+                "value": 8.68,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.16543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.46,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "date": {
+            "x": {
+                "value": 8.31,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.77543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.84,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "judge": {
+            "x": {
+                "value": 8.55,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.38543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.6,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.86325,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 11.73933,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 9.67375,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 3.98983,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.65,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.91,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            }
+        ]
+    },
+    {
+        "key": "8player-3adv-ms-jp",
+        "template_file": "Bracket_8-X-3_JP.pdf",
+        "n_entrants": 8,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 8,
+        "bracket_orientation": "vertical",
+        "n_slots": 8,
+        "lookup_order": 91,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.4495,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.83743,
+                        13.41143,
+                        11.70743,
+                        11.28143,
+                        9.57743,
+                        9.15143,
+                        7.44743,
+                        7.02143
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "WR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.26,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        12.77243,
+                        12.34643,
+                        8.51243,
+                        8.08643
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR1": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.4495,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        3.71993,
+                        3.29393,
+                        1.58993,
+                        1.16393
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 4.26,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        3.93293,
+                        3.50693,
+                        1.80293,
+                        1.37693
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "WR3": {
+                "num_slots": 2,
+                "x": {
+                    "value": 6.0705,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        10.64243,
+                        10.21643
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            },
+            "LR3": {
+                "num_slots": 2,
+                "x": {
+                    "value": 6.0705,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        2.86793,
+                        2.44193
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3195,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 17
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.0,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.54543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.15,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "pool": {
+            "x": {
+                "value": 8.68,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.16543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.46,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "date": {
+            "x": {
+                "value": 8.31,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.77543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.84,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "judge": {
+            "x": {
+                "value": 8.55,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.38543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.6,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.881,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 9.80943,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.881,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 8.53143,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.881,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 2.03493,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -2047,7 +3113,6 @@
         "source": "Monique Sammi",
         "elements": [
             "judge",
-            "notes",
             "names",
             "event",
             "date",
@@ -2063,368 +3128,352 @@
             "WR1": {
                 "num_slots": 8,
                 "x": {
-                    "value": 0.846456693,
+                    "value": 0.639,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        13.7677165354,
-                        13.3677165354,
-                        11.7677165354,
-                        11.3677165354,
-                        9.7677165354,
-                        9.3677165354,
-                        7.7677165354,
-                        7.3677165354
+                        13.30493,
+                        12.87893,
+                        11.17493,
+                        10.74893,
+                        9.04493,
+                        8.61893,
+                        6.91493,
+                        6.48893
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "WR2": {
                 "num_slots": 8,
                 "x": {
-                    "value": 2.546456693,
+                    "value": 2.4495,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        14.2677165354,
-                        13.8677165354,
-                        12.2677165354,
-                        11.8677165354,
-                        10.2677165354,
-                        9.8677165354,
-                        8.2677165354,
-                        7.8677165354
+                        13.83743,
+                        13.41143,
+                        11.70743,
+                        11.28143,
+                        9.57743,
+                        9.15143,
+                        7.44743,
+                        7.02143
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR1": {
                 "num_slots": 8,
                 "x": {
-                    "value": 0.846456693,
+                    "value": 0.639,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        5.0677165354,
-                        4.6677165354,
-                        4.0677165354,
-                        3.6677165354,
-                        3.0677165354,
-                        2.6677165354,
-                        2.0677165354,
-                        1.6677165354
+                        4.25243,
+                        3.82643,
+                        3.18743,
+                        2.76143,
+                        2.12243,
+                        1.69643,
+                        1.05743,
+                        0.63143
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "WR3": {
                 "num_slots": 4,
                 "x": {
-                    "value": 4.246456693,
+                    "value": 4.26,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        13.2677165354,
-                        12.8677165354,
-                        9.2677165354,
-                        8.8677165354
+                        12.77243,
+                        12.34643,
+                        8.51243,
+                        8.08643
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR2": {
                 "num_slots": 4,
                 "x": {
-                    "value": 2.546456693,
+                    "value": 2.4495,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        4.5677165354,
-                        4.1677165354,
-                        2.5677165354,
-                        2.1677165354
+                        3.71993,
+                        3.29393,
+                        1.58993,
+                        1.16393
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR3": {
                 "num_slots": 4,
                 "x": {
-                    "value": 4.246456693,
+                    "value": 4.26,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        4.7677165354,
-                        4.3677165354,
-                        2.7677165354,
-                        2.3677165354
+                        3.93293,
+                        3.50693,
+                        1.80293,
+                        1.37693
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "WR4": {
                 "num_slots": 2,
                 "x": {
-                    "value": 5.946456693,
+                    "value": 6.0705,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        11.2677165354,
-                        10.8677165354
+                        10.64243,
+                        10.21643
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR4": {
                 "num_slots": 2,
                 "x": {
-                    "value": 5.946456693,
+                    "value": 6.0705,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        3.7677165354,
-                        3.3677165354
+                        2.86793,
+                        2.44193
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             }
         },
         "event": {
             "x": {
-                "value": 9.1,
+                "value": 9.0,
                 "unit": "inch"
             },
             "y": {
-                "value": 15.900433071,
+                "value": 15.54543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2,
+                "value": 2.15,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "pool": {
             "x": {
-                "value": 8.8,
+                "value": 8.68,
                 "unit": "inch"
             },
             "y": {
-                "value": 15.540433071,
+                "value": 15.16543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2.3,
+                "value": 2.46,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "date": {
             "x": {
-                "value": 8.4,
+                "value": 8.31,
                 "unit": "inch"
             },
             "y": {
-                "value": 15.175433071,
+                "value": 14.77543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2.7,
+                "value": 2.84,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "judge": {
             "x": {
-                "value": 8.65,
+                "value": 8.55,
                 "unit": "inch"
             },
             "y": {
-                "value": 14.800433071,
+                "value": 14.38543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2.45,
+                "value": 2.6,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
-        },
-        "notes": {
-            "x": {
-                "value": 0.846456693,
-                "unit": "inch"
-            },
-            "y": {
-                "value": 0.2677165354,
-                "unit": "inch"
-            },
-            "width": {
-                "value": 10.0,
-                "unit": "inch"
-            },
-            "height": {
-                "value": 0.8,
-                "unit": "inch"
-            },
-            "fontsize": 10,
-            "section_header": ""
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "progressions": [
             {
                 "x": {
-                    "value": 7.646456693,
+                    "value": 7.881,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 10.4477165354,
+                    "value": 9.80943,
                     "unit": "inch"
                 },
                 "width": {
@@ -2436,7 +3485,7 @@
                     "unit": "inch"
                 },
                 "alignment": 0,
-                "fontsize": 14,
+                "fontsize": 15,
                 "valign": "TOP",
                 "type": "de",
                 "backgray": null,
@@ -2447,11 +3496,11 @@
             },
             {
                 "x": {
-                    "value": 7.646456693,
+                    "value": 7.881,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 9.2477165354,
+                    "value": 8.53143,
                     "unit": "inch"
                 },
                 "width": {
@@ -2463,7 +3512,7 @@
                     "unit": "inch"
                 },
                 "alignment": 0,
-                "fontsize": 14,
+                "fontsize": 15,
                 "valign": "TOP",
                 "type": "de",
                 "backgray": null,
@@ -2474,11 +3523,11 @@
             },
             {
                 "x": {
-                    "value": 7.646456693,
+                    "value": 7.881,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 2.9477165354,
+                    "value": 2.03493,
                     "unit": "inch"
                 },
                 "width": {
@@ -2490,7 +3539,7 @@
                     "unit": "inch"
                 },
                 "alignment": 0,
-                "fontsize": 14,
+                "fontsize": 15,
                 "valign": "TOP",
                 "type": "de",
                 "backgray": null,
@@ -3032,7 +4081,6 @@
         "source": "Monique Sammi",
         "elements": [
             "judge",
-            "notes",
             "names",
             "event",
             "date",
@@ -3048,411 +4096,395 @@
             "WR1": {
                 "num_slots": 16,
                 "x": {
-                    "value": 0.846456693,
+                    "value": 0.639,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        14.7677165354,
-                        14.3677165354,
-                        13.7677165354,
-                        13.3677165354,
-                        12.7677165354,
-                        12.3677165354,
-                        11.7677165354,
-                        11.3677165354,
-                        10.7677165354,
-                        10.3677165354,
-                        9.7677165354,
-                        9.3677165354,
-                        8.7677165354,
-                        8.3677165354,
-                        7.7677165354,
-                        7.3677165354
+                        14.36993,
+                        13.94393,
+                        13.30493,
+                        12.87893,
+                        12.23993,
+                        11.81393,
+                        11.17493,
+                        10.74893,
+                        10.10993,
+                        9.68393,
+                        9.04493,
+                        8.61893,
+                        7.97993,
+                        7.55393,
+                        6.91493,
+                        6.48893
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "WR2": {
                 "num_slots": 8,
                 "x": {
-                    "value": 2.546456693,
+                    "value": 2.4495,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        14.2677165354,
-                        13.8677165354,
-                        12.2677165354,
-                        11.8677165354,
-                        10.2677165354,
-                        9.8677165354,
-                        8.2677165354,
-                        7.8677165354
+                        13.83743,
+                        13.41143,
+                        11.70743,
+                        11.28143,
+                        9.57743,
+                        9.15143,
+                        7.44743,
+                        7.02143
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR1": {
                 "num_slots": 8,
                 "x": {
-                    "value": 0.846456693,
+                    "value": 0.639,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        5.0677165354,
-                        4.6677165354,
-                        4.0677165354,
-                        3.6677165354,
-                        3.0677165354,
-                        2.6677165354,
-                        2.0677165354,
-                        1.6677165354
+                        4.03943,
+                        3.61343,
+                        2.97443,
+                        2.54843,
+                        1.90943,
+                        1.48343,
+                        0.84443,
+                        0.41843
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR2": {
                 "num_slots": 8,
                 "x": {
-                    "value": 2.546456693,
+                    "value": 2.4495,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        5.2677165354,
-                        4.8677165354,
-                        4.2677165354,
-                        3.8677165354,
-                        3.2677165354,
-                        2.8677165354,
-                        2.2677165354,
-                        1.8677165354
+                        4.25243,
+                        3.82643,
+                        3.18743,
+                        2.76143,
+                        2.12243,
+                        1.69643,
+                        1.05743,
+                        0.63143
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "WR3": {
                 "num_slots": 4,
                 "x": {
-                    "value": 4.246456693,
+                    "value": 4.26,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        13.2677165354,
-                        12.8677165354,
-                        9.2677165354,
-                        8.8677165354
+                        12.77243,
+                        12.34643,
+                        8.51243,
+                        8.08643
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR3": {
                 "num_slots": 4,
                 "x": {
-                    "value": 4.246456693,
+                    "value": 4.26,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        4.7677165354,
-                        4.3677165354,
-                        2.7677165354,
-                        2.3677165354
+                        3.71993,
+                        3.29393,
+                        1.58993,
+                        1.16393
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR4": {
                 "num_slots": 4,
                 "x": {
-                    "value": 5.946456693,
+                    "value": 6.0705,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        4.9677165354,
-                        4.5677165354,
-                        2.9677165354,
-                        2.5677165354
+                        3.93293,
+                        3.50693,
+                        1.80293,
+                        1.37693
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "WR4": {
                 "num_slots": 2,
                 "x": {
-                    "value": 5.946456693,
+                    "value": 6.0705,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        11.2677165354,
-                        10.8677165354
+                        10.64243,
+                        10.21643
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             },
             "LR5": {
                 "num_slots": 2,
                 "x": {
-                    "value": 7.646456693,
+                    "value": 7.881,
                     "unit": "inch"
                 },
                 "y": {
                     "value": [
-                        3.9677165354,
-                        3.5677165354
+                        2.86793,
+                        2.44193
                     ],
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 1.5,
+                    "value": 1.5975,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.3,
+                    "value": 0.3195,
                     "unit": "inch"
                 },
                 "margin": {
                     "left": 2,
-                    "right": 22.6,
+                    "right": 24.04,
                     "top": 1,
                     "bottom": 1
                 },
-                "fontsize": 14
+                "fontsize": 17
             }
         },
         "event": {
             "x": {
-                "value": 9.1,
+                "value": 9.0,
                 "unit": "inch"
             },
             "y": {
-                "value": 15.900433071,
+                "value": 15.54543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2,
+                "value": 2.15,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "pool": {
             "x": {
-                "value": 8.8,
+                "value": 8.68,
                 "unit": "inch"
             },
             "y": {
-                "value": 15.540433071,
+                "value": 15.16543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2.3,
+                "value": 2.46,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "date": {
             "x": {
-                "value": 8.4,
+                "value": 8.31,
                 "unit": "inch"
             },
             "y": {
-                "value": 15.175433071,
+                "value": 14.77543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2.7,
+                "value": 2.84,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "judge": {
             "x": {
-                "value": 8.65,
+                "value": 8.55,
                 "unit": "inch"
             },
             "y": {
-                "value": 14.800433071,
+                "value": 14.38543,
                 "unit": "inch"
             },
             "width": {
-                "value": 2.45,
+                "value": 2.6,
                 "unit": "inch"
             },
             "height": {
-                "value": 0.3,
+                "value": 0.32,
                 "unit": "inch"
             },
-            "fontsize": 16,
-            "alignment": "center"
-        },
-        "notes": {
-            "x": {
-                "value": 0.846456693,
-                "unit": "inch"
-            },
-            "y": {
-                "value": 0.2677165354,
-                "unit": "inch"
-            },
-            "width": {
-                "value": 10.0,
-                "unit": "inch"
-            },
-            "height": {
-                "value": 0.8,
-                "unit": "inch"
-            },
-            "fontsize": 10,
-            "section_header": ""
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
         },
         "progressions": [
             {
                 "x": {
-                    "value": 7.646456693,
+                    "value": 7.881,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 10.4477165354,
+                    "value": 9.80943,
                     "unit": "inch"
                 },
                 "width": {
@@ -3464,7 +4496,7 @@
                     "unit": "inch"
                 },
                 "alignment": 0,
-                "fontsize": 14,
+                "fontsize": 15,
                 "valign": "TOP",
                 "type": "de",
                 "backgray": null,
@@ -3475,11 +4507,11 @@
             },
             {
                 "x": {
-                    "value": 7.646456693,
+                    "value": 7.881,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 9.2477165354,
+                    "value": 8.53143,
                     "unit": "inch"
                 },
                 "width": {
@@ -3491,7 +4523,7 @@
                     "unit": "inch"
                 },
                 "alignment": 0,
-                "fontsize": 14,
+                "fontsize": 15,
                 "valign": "TOP",
                 "type": "de",
                 "backgray": null,
@@ -3502,23 +4534,23 @@
             },
             {
                 "x": {
-                    "value": 9.346456693,
+                    "value": 9.6915,
                     "unit": "inch"
                 },
                 "y": {
-                    "value": 3.1477165354,
+                    "value": 1.72493,
                     "unit": "inch"
                 },
                 "width": {
-                    "value": 2.5,
+                    "value": 1.65,
                     "unit": "inch"
                 },
                 "height": {
-                    "value": 0.6,
+                    "value": 0.91,
                     "unit": "inch"
                 },
                 "alignment": 0,
-                "fontsize": 14,
+                "fontsize": 15,
                 "valign": "TOP",
                 "type": "de",
                 "backgray": null,
@@ -4218,6 +5250,337 @@
                 "seeds": [
                     3
                 ]
+            }
+        ]
+    },
+    {
+        "key": "4w8l-3adv-ms-jp",
+        "template_file": "Bracket_4-8-3_JP.pdf",
+        "n_in_winners": 4,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 3,
+        "bracket_size": 16,
+        "bracket_orientation": "vertical",
+        "n_slots": 12,
+        "lookup_order": 116,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR0": {
+                "num_slots": 4,
+                "x": {
+                    "value": 0.62125,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.99008,
+                        13.67058,
+                        10.58208,
+                        10.26258
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 8.92,
+                    "right": 2,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR0": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.62125,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.85458,
+                        6.53508,
+                        5.15058,
+                        4.83108,
+                        3.44658,
+                        3.12708,
+                        1.74258,
+                        1.42308
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 8.92,
+                    "right": 2,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR1": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.43175,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.99008,
+                        13.67058,
+                        10.58208,
+                        10.26258
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.43175,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.85458,
+                        6.53508,
+                        5.15058,
+                        4.83108,
+                        3.44658,
+                        3.12708,
+                        1.74258,
+                        1.42308
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.0,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.54543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.15,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "pool": {
+            "x": {
+                "value": 8.68,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.16543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.46,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "date": {
+            "x": {
+                "value": 8.31,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.77543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.84,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "judge": {
+            "x": {
+                "value": 8.55,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.38543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.6,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.86325,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 11.73933,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.86325,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 10.46133,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 9.67375,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 3.42183,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.65,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.91,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
@@ -8105,6 +9468,418 @@
                     5,
                     6
                 ]
+            }
+        ]
+    },
+    {
+        "key": "4w8l-6adv-ms-jp",
+        "template_file": "Bracket_4-8-6_JP.pdf",
+        "n_in_winners": 4,
+        "n_in_losers": 8,
+        "format": "double-elimination",
+        "n_advance": 6,
+        "bracket_size": 16,
+        "bracket_orientation": "vertical",
+        "n_slots": 12,
+        "lookup_order": 191,
+        "legacy_code": "w",
+        "paper_size": "A3",
+        "paper_orientation": "portrait",
+        "locale": "ja_JP",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 297,
+            "height": 420,
+            "unit": "mm"
+        },
+        "names": {
+            "WR0": {
+                "num_slots": 4,
+                "x": {
+                    "value": 0.62125,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.99008,
+                        13.67058,
+                        10.58208,
+                        10.26258
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 8.92,
+                    "right": 2,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR0": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.62125,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.85458,
+                        6.53508,
+                        5.15058,
+                        4.83108,
+                        3.44658,
+                        3.12708,
+                        1.74258,
+                        1.42308
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 8.92,
+                    "right": 2,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR1": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.43175,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.99008,
+                        13.67058,
+                        10.58208,
+                        10.26258
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.43175,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        6.85458,
+                        6.53508,
+                        5.15058,
+                        4.83108,
+                        3.44658,
+                        3.12708,
+                        1.74258,
+                        1.42308
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5975,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.213,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 24.04,
+                    "top": 1,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 9.0,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.54543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.15,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "pool": {
+            "x": {
+                "value": 8.68,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.16543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.46,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "date": {
+            "x": {
+                "value": 8.31,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.77543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.84,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "judge": {
+            "x": {
+                "value": 8.55,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 14.38543,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.6,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.32,
+                "unit": "inch"
+            },
+            "fontsize": 20,
+            "alignment": "center",
+            "valign": "MIDDLE"
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 4.24225,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 13.21033,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 6.05275,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 10.03533,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 6.05275,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 8.75733,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    3
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 4.24225,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 11.93233,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    4
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.86325,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 5.45583,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    5
+                ],
+                "advance_text": "{}に通過する"
+            },
+            {
+                "x": {
+                    "value": 7.86325,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 2.04783,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.6,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 15,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    6
+                ],
+                "advance_text": "{}に通過する"
             }
         ]
     },
