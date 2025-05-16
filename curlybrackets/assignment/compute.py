@@ -4,7 +4,7 @@ from functools import reduce, partial
 from math import factorial
 
 from pandas import Series, DataFrame, Index
-from numpy import array, unique, where, zeros, infty
+from numpy import array, unique, where, zeros, inf
 
 from ..utilities import get_pool_wave
 
@@ -68,12 +68,12 @@ def compute_schedule_minimum(sr, phases, wave_maps, keep_assigned=False, xchar=N
         block_sr_slope = (scm * ((block_sr_current+1).map(factorial) - block_sr_current.map(factorial)) 
                             + xcm * block_sr_external)
         # wave_sr_slope = {w: block_sr_slope[list(w)].sum() for w in waves_possible}
-        min_slope = infty
+        min_slope = inf
         for e in events_unassigned:
             e_slope = wmaps_ua[e].applymap(lambda w: block_sr_slope[list(w)].sum()).sum(axis=1)
             if e_slope.min() < min_slope:
                 min_slope = e_slope.min()
-                min_noptions = infty
+                min_noptions = inf
             if e_slope.min() == min_slope:
                 e_noptions = (e_slope == min_slope).sum()
                 if e_noptions < min_noptions:
@@ -143,12 +143,12 @@ def compute_schedule_minimums(df, phases, wave_maps, keep_assigned=False, xchar=
     return Series(schedule_scores)
 
 
-def compute_schedule_contribution(sr, phases, external=None,
+def compute_schedule_contribution(sr, phases, xchar=None, external=None,
                                   splitchar=None, scm=2.0, xcm=8.0, **kwargs):
     splitter = list if splitchar is None else partial(str.split, sep=splitchar)
     ext_conflicts = splitter('' if external is None else sr[external])
 
-    block_vc = u.count_blocks(sr[phases])
+    block_vc = u.count_blocks(sr[phases], xchar)
     contrib = (scm * (block_vc.map(factorial).sum() - len(block_vc))
                  + xcm * block_vc.reindex(ext_conflicts).fillna(0).sum())
 
