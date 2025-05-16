@@ -256,7 +256,8 @@ def compute_current_score(df, events, locations, pools, phase_maps=None,
             schedule_scores = compute_schedule_minimums(dfc, phases, wave_maps, 
                                                         keep_assigned=True, xchar=xchar, **kwargs)
         else:
-            schedule_scores = dfc.apply(compute_schedule_contribution, axis=1, args=(phases,), **kwargs)
+            schedule_scores = dfc.apply(compute_schedule_contribution, axis=1, args=(phases,), 
+                                        xchar=xchar, **kwargs)
         if schedule_weight_col is not None:
             schedule_scores *= dfc[schedule_weight_col]
         curr_score += schedule_scores.sum()
@@ -331,8 +332,10 @@ def compute_score_change(olddf, newdf, diffs, e, events, locations, pools, phase
             new_sched_scores = compute_schedule_minimums(newdfc.loc[jxs], phases, wave_maps, 
                                                          keep_assigned=True, xchar=xchar, **kwargs)
         else:
-            old_sched_scores = olddfc.loc[jxs].apply(compute_schedule_contribution, axis=1, args=(phases,), **kwargs)
-            new_sched_scores = newdfc.loc[jxs].apply(compute_schedule_contribution, axis=1, args=(phases,), **kwargs)
+            old_sched_scores = olddfc.loc[jxs].apply(compute_schedule_contribution, axis=1, args=(phases,), 
+                                                     xchar=xchar, **kwargs)
+            new_sched_scores = newdfc.loc[jxs].apply(compute_schedule_contribution, axis=1, args=(phases,), 
+                                                     xchar=xchar, **kwargs)
         if schedule_weight_col is not None:
             old_sched_scores *= olddfc.loc[jxs, schedule_weight_col]
             new_sched_scores *= newdfc.loc[jxs, schedule_weight_col]
