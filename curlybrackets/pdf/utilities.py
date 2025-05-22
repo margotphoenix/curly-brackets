@@ -7,6 +7,7 @@ from datetime import datetime
 
 NBSP = '\u00a0'
 ENDA = '\u2013'
+BULL = '\u2022'
 
 
 def cycle_list(length, lst):

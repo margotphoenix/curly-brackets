@@ -559,7 +559,9 @@ class ParagraphElement(RectElement):
                                leading=fontsize * 1.2,
                                alignment=self.alignment, valign=self.valign,
                                textColor=gray2color(self.textgray),
-                               backColor=None, borderColor=None, borderWidth=0)
+                               backColor=gray2color(self.backgray), 
+                               borderColor=gray2color(self.bordergray), 
+                               borderWidth=self.borderwidth)
         return style
 
     @staticmethod

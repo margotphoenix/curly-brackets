@@ -9474,6 +9474,7 @@
             "event",
             "date",
             "pool",
+            "rules",
             "progressions"
         ],
         "page": {
@@ -9909,6 +9910,29 @@
             },
             "fontsize": 10,
             "section_header": "<b>Notes:</b>"
+        },
+        "rules": {
+            "x": {
+                "value": 6.5,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 7.06,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 4.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 1.44,
+                "unit": "inch"
+            },
+            "fontsize": 12,
+            "bordergray": 0,
+            "borderwidth": 1,
+            "backgray": 0.6,
+            "section_header": "<b>Rules:</b>"
         },
         "progressions": [
             {
@@ -11797,6 +11821,7 @@
             "event",
             "date",
             "pool",
+            "rules",
             "progressions"
         ],
         "page": {
@@ -12201,6 +12226,29 @@
             },
             "fontsize": 10,
             "section_header": "<b>Notes:</b>"
+        },
+        "rules": {
+            "x": {
+                "value": 6.5,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 7.06,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 4.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 1.44,
+                "unit": "inch"
+            },
+            "fontsize": 12,
+            "bordergray": 0,
+            "borderwidth": 1,
+            "backgray": 0.6,
+            "section_header": "<b>Rules:</b>"
         },
         "progressions": [
             {
@@ -13770,6 +13818,7 @@
             "event",
             "date",
             "pool",
+            "rules",
             "progressions"
         ],
         "page": {
@@ -14038,6 +14087,29 @@
             },
             "fontsize": 10,
             "section_header": "<b>Notes:</b>"
+        },
+        "rules": {
+            "x": {
+                "value": 6.75,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 6.964,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 3.75,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 1.536,
+                "unit": "inch"
+            },
+            "fontsize": 12,
+            "bordergray": 0,
+            "borderwidth": 1,
+            "backgray": 0.6,
+            "section_header": "<b>Rules:</b>"
         },
         "progressions": [
             {

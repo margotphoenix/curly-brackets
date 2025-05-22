@@ -21,7 +21,7 @@ from curlybrackets.pdf.fonts import DEFAULT_FONT, BASE_FONT
 from curlybrackets.pdf.utilities import (expand_kwargs,
                                          collapse_kwargs,
                                          ProgressionFormatter, 
-                                         NBSP, ENDA)
+                                         NBSP, ENDA, BULL)
 
 
 class Page:
@@ -116,6 +116,9 @@ class Template:
         elif element_name in ['notes']:
             base_class = ItemListElement
             element_defaults = {'fontname': DEFAULT_FONT, 'bullet': ENDA}
+        elif element_name in ['rules']:
+            base_class = ItemListElement
+            element_defaults = {'fontname': BASE_FONT, 'bullet': BULL}
         elif element_name in ['image']:
             base_class = ImageElement
             element_defaults = {}
