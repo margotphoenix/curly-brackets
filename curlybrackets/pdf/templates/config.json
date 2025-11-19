@@ -4046,6 +4046,479 @@
         ]
     },
     {
+        "key": "12player-2adv-ms",
+        "template_file": "Bracket_12-X-2.pdf",
+        "n_entrants": 12,
+        "format": "double-elimination",
+        "n_advance": 2,
+        "bracket_size": 12,
+        "bracket_orientation": "vertical",
+        "n_slots": 12,
+        "lookup_order": 74,
+        "legacy_code": "y",
+        "paper_size": "US Tabloid",
+        "paper_orientation": "portrait",
+        "locale": "en_US",
+        "source": "Monique Sammi",
+        "elements": [
+            "judge",
+            "notes",
+            "names",
+            "event",
+            "date",
+            "pool",
+            "progressions"
+        ],
+        "page": {
+            "width": 11,
+            "height": 17,
+            "unit": "inch"
+        },
+        "names": {
+            "WR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.5,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.0,
+                        13.6,
+                        12.0,
+                        11.6,
+                        10.0,
+                        9.6,
+                        8.0,
+                        7.6
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR2": {
+                "num_slots": 8,
+                "x": {
+                    "value": 2.2,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        14.5,
+                        14.1,
+                        12.5,
+                        12.1,
+                        10.5,
+                        10.1,
+                        8.5,
+                        8.1
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR1": {
+                "num_slots": 8,
+                "x": {
+                    "value": 0.5,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.3,
+                        4.9,
+                        4.3,
+                        3.9,
+                        3.3,
+                        2.9,
+                        2.3,
+                        1.9
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 3.9,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        13.5,
+                        13.1,
+                        9.5,
+                        9.1
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR2": {
+                "num_slots": 4,
+                "x": {
+                    "value": 2.2,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.8,
+                        4.4,
+                        2.8,
+                        2.4
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR3": {
+                "num_slots": 4,
+                "x": {
+                    "value": 3.9,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        5.0,
+                        4.6,
+                        3.0,
+                        2.6
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "WR4": {
+                "num_slots": 2,
+                "x": {
+                    "value": 5.6,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        11.5,
+                        11.1
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR4": {
+                "num_slots": 2,
+                "x": {
+                    "value": 5.6,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.0,
+                        3.6
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            },
+            "LR5": {
+                "num_slots": 2,
+                "x": {
+                    "value": 7.3,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": [
+                        4.2,
+                        3.8
+                    ],
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.5,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.3,
+                    "unit": "inch"
+                },
+                "margin": {
+                    "left": 2,
+                    "right": 22.6,
+                    "top": 0,
+                    "bottom": 1
+                },
+                "fontsize": 14
+            }
+        },
+        "event": {
+            "x": {
+                "value": 7.9,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 16.15,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.5,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "pool": {
+            "x": {
+                "value": 7.9,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.78,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.5,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "date": {
+            "x": {
+                "value": 7.9,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.42,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.5,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "judge": {
+            "x": {
+                "value": 7.9,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 15.05,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 2.5,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "inch"
+            },
+            "fontsize": 18,
+            "alignment": "left"
+        },
+        "notes": {
+            "x": {
+                "value": 0.5,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.5,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 10.0,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
+        },
+        "progressions": [
+            {
+                "x": {
+                    "value": 7.3,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 10.58,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 2.0,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.7,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    1
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            },
+            {
+                "x": {
+                    "value": 9.0,
+                    "unit": "inch"
+                },
+                "y": {
+                    "value": 3.20,
+                    "unit": "inch"
+                },
+                "width": {
+                    "value": 1.8,
+                    "unit": "inch"
+                },
+                "height": {
+                    "value": 0.78,
+                    "unit": "inch"
+                },
+                "alignment": 0,
+                "fontsize": 14,
+                "valign": "TOP",
+                "type": "de",
+                "backgray": null,
+                "seeds": [
+                    2
+                ],
+                "advance_text": "Advance&nbsp;to {}"
+            }
+        ]
+    },
+    {
         "key": "16player-2adv-ms",
         "template_file": "Bracket_16-X-2.pdf",
         "n_entrants": 16,
