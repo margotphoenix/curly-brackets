@@ -362,7 +362,7 @@ class _SlotElement(Element):
             hscale = 100
         else:
             line_width = avail_width
-
+        
         if self.alignment == 'right':
             hshift = self.width - self.margin['right'] - line_width
         elif self.alignment in ['center', 'centre']:
@@ -375,7 +375,7 @@ class _SlotElement(Element):
             vshift = self.margin['bottom'] + 0.5 * (avail_height - fontsize)
         else:
             vshift = self.margin['bottom']
-        
+
         txobj.moveCursor(hshift, -vshift)
         txobj.setFont(fontname, fontsize)
         txobj.setHorizScale(hscale)
@@ -636,7 +636,7 @@ class ItemListElement(ParagraphElement):
             par = Paragraph(self.section_header, style)
             frame.addFromList([par], canvas)
             avail_height -= style.leading
-
+    
         if self.bullet:
             items_txt = [f'{self.bullet} {n}' for n in items]
         else:
@@ -648,7 +648,7 @@ class ItemListElement(ParagraphElement):
         items_ext = items_txt + [''] * (nrows * ncols - len(items_txt))
 
         items_grid = [items_ext[i*nrows:(i+1)*nrows] for i in range(ncols)]
-        items_table = [['\n'.join(col) for col in items_grid]]
+        items_table = [[Paragraph('<br/>'.join(col), istyle) for col in items_grid]]
 
         col_widths = [max(canvas.stringWidth(t, istyle.fontName, istyle.fontSize)
                           for t in col) + istyle.fontSize * self.col_space
@@ -670,7 +670,7 @@ class ItemListElement(ParagraphElement):
             items_ext = items_txt + [''] * (nrows * ncols - len(items_txt))
 
             items_grid = [items_ext[i*nrows:(i+1)*nrows] for i in range(ncols)]
-            items_table = [['\n'.join(col) for col in items_grid]]
+            items_table = [[Paragraph('<br/>'.join(col), istyle) for col in items_grid]]
 
             col_widths = [max(canvas.stringWidth(t, istyle.fontName, istyle.fontSize)
                               for t in col) + istyle.fontSize * self.col_space
@@ -702,6 +702,7 @@ class ImageElement(RectElement):
     required_args = ['x', 'y', 'width', 'height']
     optional_args = {'backgray': 1,
                      'bordergray': None,
+                     'backalpha': None,
                      'borderwidth': 0}
 
     def _draw(self, canvas, image=None):

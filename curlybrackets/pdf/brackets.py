@@ -98,10 +98,10 @@ class Template:
             element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 70}
         elif element_name in ['event', 'label']:
             base_class = TextFieldElement
-            element_defaults = {'fontname': DEFAULT_FONT, 'min_hscale': 90}
+            element_defaults = {'fontname': BASE_FONT, 'min_hscale': 90}
         elif element_name in ['pool', 'date', 'total']:
             base_class = TextFieldElement
-            element_defaults = {'fontname': DEFAULT_FONT,
+            element_defaults = {'fontname': BASE_FONT,
                                 'alignment': 'center',
                                 'min_hscale': 90}
         elif element_name in ['judge']:
@@ -112,7 +112,7 @@ class Template:
             #     base_class = ItemListElement
             # else:
             base_class = ParagraphElement
-            element_defaults = {'fontname': DEFAULT_FONT, 'valign': 'MIDDLE'}
+            element_defaults = {'fontname': BASE_FONT, 'valign': 'MIDDLE'}
         elif element_name in ['notes']:
             base_class = ItemListElement
             element_defaults = {'fontname': DEFAULT_FONT, 'bullet': ENDA}

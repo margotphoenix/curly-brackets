@@ -177,7 +177,7 @@ def print_initial_bracket(filename, entrants, format='double-elimination',
                     names_textgray.update({'LR1': byes_gray, 
                                            'LR2': byes_gray})
             
-            kwargs['names_textgray'] = byes_gray
+            kwargs['names_textgray'] = names_textgray
     else:
         names = entrants
         if 'names_textgray' not in kwargs:

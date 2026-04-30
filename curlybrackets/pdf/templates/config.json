@@ -5271,6 +5271,7 @@
         "source": "Monique Sammi",
         "elements": [
             "judge",
+            "notes",
             "names",
             "event",
             "date",
@@ -5499,6 +5500,26 @@
             "fontsize": 20,
             "alignment": "center",
             "valign": "MIDDLE"
+        },
+        "notes": {
+            "x": {
+                "value": 0.896456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 9.9,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
         },
         "progressions": [
             {
@@ -9489,6 +9510,7 @@
         "source": "Monique Sammi",
         "elements": [
             "judge",
+            "notes",
             "names",
             "event",
             "date",
@@ -9717,6 +9739,26 @@
             "fontsize": 20,
             "alignment": "center",
             "valign": "MIDDLE"
+        },
+        "notes": {
+            "x": {
+                "value": 0.896456693,
+                "unit": "inch"
+            },
+            "y": {
+                "value": 0.2677165354,
+                "unit": "inch"
+            },
+            "width": {
+                "value": 9.9,
+                "unit": "inch"
+            },
+            "height": {
+                "value": 0.8,
+                "unit": "inch"
+            },
+            "fontsize": 10,
+            "section_header": "<b>Notes:</b>"
         },
         "progressions": [
             {
