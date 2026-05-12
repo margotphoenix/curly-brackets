@@ -5519,7 +5519,8 @@
                 "unit": "inch"
             },
             "fontsize": 10,
-            "section_header": "<b>Notes:</b>"
+            "section_header": "<b>Note:</b>",
+            "backgray": 0.9
         },
         "progressions": [
             {
@@ -9758,7 +9759,8 @@
                 "unit": "inch"
             },
             "fontsize": 10,
-            "section_header": "<b>Notes:</b>"
+            "section_header": "<b>Note:</b>",
+            "backgray": 0.9
         },
         "progressions": [
             {

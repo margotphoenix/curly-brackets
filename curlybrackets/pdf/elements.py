@@ -620,6 +620,7 @@ class ItemListElement(ParagraphElement):
                      'fontname': None,
                      'textgray': 0,
                      'backgray': None,
+                     'backalpha': None,
                      'bordergray': None,
                      'borderwidth': 0,
                      'bullet': None,
