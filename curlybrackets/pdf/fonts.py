@@ -4,7 +4,7 @@ from reportlab.pdfbase.pdfmetrics import registerFont, registerFontFamily
 from reportlab.pdfbase.ttfonts import TTFont, TTFError
 
 
-BASE_FONT = 'Helvetica'
+BASE_FONT = 'Arial'
 
 try:
     registerFont(TTFont('UnGraphic', 'UnGraphic.ttf'))
@@ -20,11 +20,11 @@ except TTFError:
 #     DEFAULT_FONT = 'UnGraphic'
 
 try:
-    registerFont(TTFont('ZenKakuGothicAntique', 'ZenKakuGothicAntique-Regular.ttf'))
-    registerFont(TTFont('ZenKakuGothicAntique-Bold', 'ZenKakuGothicAntique-Bold.ttf'))
-    registerFontFamily('ZenKakuGothicAntique', 
-                       normal='ZenKakuGothicAntique', 
-                       bold='ZenKakuGothicAntique-Bold')
+    # registerFont(TTFont('ZenKakuGothicAntique', 'ZenKakuGothicAntique-Regular.ttf'))
+    # registerFont(TTFont('ZenKakuGothicAntique-Bold', 'ZenKakuGothicAntique-Bold.ttf'))
+    # registerFontFamily('ZenKakuGothicAntique', 
+    #                    normal='ZenKakuGothicAntique', 
+    #                    bold='ZenKakuGothicAntique-Bold')
     # registerFont(TTFont('Mplus1', 'Mplus1-Regular.ttf'))
     # registerFont(TTFont('Mplus1-Bold', 'Mplus1-Bold.ttf'))
     # registerFontFamily('Mplus1', 
@@ -35,7 +35,7 @@ try:
     # registerFontFamily('PretendardJP', 
     #                    normal='PretendardJP-Regular', 
     #                    bold='PretendardJP-Bold')
-    registerFont(TTFont('NotoSansCJKtc', 'NotoSansCJKtc-VF.ttf'))
+    # registerFont(TTFont('NotoSansCJKtc', 'NotoSansCJKtc-VF.ttf'))
     registerFont(TTFont('ArialUnicode', 'Arial Unicode.ttf'))
 # except TTFError:
 #     pass
